@@ -5,15 +5,9 @@ Example:
 """
 
 import argparse
-import json
 import random
-import time
-from pathlib import Path
 
-import torch
-import torchaudio
-
-from stable_audio_3 import StableAudioModel
+from playlist_common import add_common_args, generate_playlist, n_tracks_for
 
 # Each prompt is a distinct sub-style so the playlist doesn't drift into one texture.
 # Steady tempo, minimal vocals, no big dynamic swings -- the things that make music
@@ -65,19 +59,8 @@ NEGATIVE_PROMPT = (
 )
 
 
-def slugify(text: str, max_len: int = 48) -> str:
-    keep = [c.lower() if c.isalnum() else "-" for c in text]
-    slug = "".join(keep)
-    while "--" in slug:
-        slug = slug.replace("--", "-")
-    return slug.strip("-")[:max_len].strip("-")
-
-
 def main(args):
-    out_dir = Path(args.out).expanduser()
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    n_tracks = max(1, round(args.hours * 3600 / args.duration))
+    n_tracks = n_tracks_for(args)
 
     # Cycle through the prompt bank so every style is used before any repeats.
     rng = random.Random(args.seed if args.seed >= 0 else None)
@@ -88,63 +71,10 @@ def main(args):
         playlist.extend(batch)
     playlist = playlist[:n_tracks]
 
-    print(f"Generating {n_tracks} x {args.duration}s tracks "
-          f"(~{n_tracks * args.duration / 3600:.2f} hours) into {out_dir}")
-
-    model = StableAudioModel.from_pretrained(args.model, model_half=args.model_half)
-    sample_rate = model.model.sample_rate
-
-    manifest = []
-    for i, prompt in enumerate(playlist, start=1):
-        seed = rng.randrange(2**31 - 1)
-        torch.manual_seed(seed)
-
-        t0 = time.time()
-        audio = model.generate(
-            prompt=prompt,
-            negative_prompt=NEGATIVE_PROMPT if args.cfg_scale > 1.0 else None,
-            duration=args.duration,
-            steps=args.steps,
-            cfg_scale=args.cfg_scale,
-            seed=seed,
-        )
-        elapsed = time.time() - t0
-
-        # (batch, channels, samples) -> (channels, samples), float32 in [-1, 1]
-        wav = audio[0].cpu()
-        peak = wav.abs().max()
-        if peak > 0:
-            wav = wav * (0.95 / peak)  # normalize; generations vary a lot in level
-
-        name = f"{i:03d}-{slugify(prompt)}.wav"
-        path = out_dir / name
-        torchaudio.save(str(path), wav, sample_rate)
-
-        manifest.append({"file": name, "prompt": prompt, "seed": seed,
-                         "duration": args.duration, "steps": args.steps,
-                         "cfg_scale": args.cfg_scale})
-        print(f"[{i}/{n_tracks}] {elapsed:5.1f}s  {name}")
-
-    (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2))
-
-    with (out_dir / "playlist.m3u").open("w") as f:
-        f.write("#EXTM3U\n")
-        for entry in manifest:
-            f.write(f"#EXTINF:{int(entry['duration'])},{entry['prompt'][:60]}\n")
-            f.write(f"{entry['file']}\n")
-
-    print(f"\nDone. {len(manifest)} tracks + playlist.m3u in {out_dir}")
+    generate_playlist(args, playlist, NEGATIVE_PROMPT, rng)
 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description="Generate a focus-music playlist")
-    p.add_argument("--out", type=str, default="focus_playlist", help="Output directory")
-    p.add_argument("--hours", type=float, default=1.0, help="Total playlist length in hours")
-    p.add_argument("--duration", type=float, default=120, help="Seconds per track (small-music maxes at 120)")
-    p.add_argument("--model", type=str, default="small-music")
-    p.add_argument("--model-half", action="store_true", default=True)
-    p.add_argument("--steps", type=int, default=8, help="Diffusion steps (8 is the rectified-flow default)")
-    p.add_argument("--cfg-scale", type=float, default=1.0,
-                   help="1.0 = the model's default. Raise (e.g. 4) to enable the negative prompt.")
-    p.add_argument("--seed", type=int, default=-1, help="Seed for prompt shuffling and per-track seeds; -1 = random")
+    add_common_args(p, default_out="focus_playlist")
     main(p.parse_args())
