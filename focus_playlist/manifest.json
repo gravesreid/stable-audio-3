@@ -1,0 +1,242 @@
+[
+  {
+    "file": "001-melodic-house-for-concentration-soft-plucked-syn.wav",
+    "prompt": "Melodic house for concentration, soft plucked synth motif, rolling bassline, gentle sidechain, no vocals, 122 BPM",
+    "seed": 1051906889,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "002-kosmische-synthesizer-music-steady-analog-pulse.wav",
+    "prompt": "Kosmische synthesizer music, steady analog pulse, warm drifting pads, meditative, no vocals, 112 BPM",
+    "seed": 528317630,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "003-downtempo-breakbeat-dusty-chopped-drums-warm-bas.wav",
+    "prompt": "Downtempo breakbeat, dusty chopped drums, warm bass, soft atmospheric pads, no vocals, 92 BPM",
+    "seed": 1206195366,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "004-lo-fi-house-crunchy-drums-warm-detuned-chords-ta.wav",
+    "prompt": "Lo-fi house, crunchy drums, warm detuned chords, tape hiss, relaxed swing, no vocals, 118 BPM",
+    "seed": 1161472778,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "005-detroit-influenced-electro-crisp-drum-machine-wa.wav",
+    "prompt": "Detroit-influenced electro, crisp drum machine, warm strings, restrained melody, no vocals, 128 BPM",
+    "seed": 640466107,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "006-berlin-school-sequencer-music-hypnotic-analog-se.wav",
+    "prompt": "Berlin school sequencer music, hypnotic analog sequence, slow filter movement, spacious, no vocals, 110 BPM",
+    "seed": 360156691,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "007-dub-techno-deep-chord-stabs-drenched-in-reverb-t.wav",
+    "prompt": "Dub techno, deep chord stabs drenched in reverb, tape delay, subterranean bass, no vocals, 122 BPM",
+    "seed": 1142402610,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "008-glitchy-idm-for-concentration-intricate-but-soft.wav",
+    "prompt": "Glitchy IDM for concentration, intricate but soft percussion, warm melodic pads, no vocals, 110 BPM",
+    "seed": 844037965,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "009-jazzy-electronic-groove-for-studying-brushed-dru.wav",
+    "prompt": "Jazzy electronic groove for studying, brushed drum machine, warm electric piano chords, walking sub bass, no vocals, 108 BPM",
+    "seed": 377038840,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "010-microhouse-clicky-percussion-tiny-vinyl-crackle.wav",
+    "prompt": "Microhouse, clicky percussion, tiny vinyl crackle, understated bassline, hypnotic loop, no vocals, 120 BPM",
+    "seed": 764400418,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "011-nordic-electronic-music-icy-synth-textures-spars.wav",
+    "prompt": "Nordic electronic music, icy synth textures, sparse percussion, wide reverb, contemplative, no vocals, 105 BPM",
+    "seed": 464138178,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "012-cinematic-electronic-underscore-slow-building-pa.wav",
+    "prompt": "Cinematic electronic underscore, slow-building pads, soft ticking percussion, no vocals, 100 BPM",
+    "seed": 83547032,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "013-progressive-house-study-music-long-pad-swells-mu.wav",
+    "prompt": "Progressive house study music, long pad swells, muted arpeggios, steady kick, hypnotic and unobtrusive, no vocals, 124 BPM",
+    "seed": 1039376994,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "014-braindance-electronica-playful-melodic-synths-cr.wav",
+    "prompt": "Braindance electronica, playful melodic synths, crisp broken beat, gentle mood, no vocals, 115 BPM",
+    "seed": 1141076874,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "015-minimal-techno-for-deep-focus-dry-rimshot-groove.wav",
+    "prompt": "Minimal techno for deep focus, dry rimshot groove, subtle acid line, evolving filter sweeps, no vocals, 126 BPM",
+    "seed": 2083579624,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "016-ambient-techno-distant-pads-soft-kick-pulse-gran.wav",
+    "prompt": "Ambient techno, distant pads, soft kick pulse, granular textures, slowly evolving, no vocals, 118 BPM",
+    "seed": 759721359,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "017-trance-influenced-focus-music-gentle-rolling-bas.wav",
+    "prompt": "Trance-influenced focus music, gentle rolling bass, shimmering arpeggio, wide pads, no vocals, 130 BPM",
+    "seed": 1699757443,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "018-tech-house-groove-for-productivity-tight-percuss.wav",
+    "prompt": "Tech house groove for productivity, tight percussion, hypnotic bass riff, minimal changes, no vocals, 125 BPM",
+    "seed": 829476421,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "019-minimal-electronic-music-repetitive-marimba-like.wav",
+    "prompt": "Minimal electronic music, repetitive marimba-like synth pattern, soft kick, phase-shifting, no vocals, 116 BPM",
+    "seed": 794450539,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "020-deep-house-for-working-muffled-organ-chords-soft.wav",
+    "prompt": "Deep house for working, muffled organ chords, soft shuffled hats, warm sub bass, no vocals, 121 BPM",
+    "seed": 395975730,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "021-generative-ambient-music-overlapping-sine-tones.wav",
+    "prompt": "Generative ambient music, overlapping sine tones, slow harmonic drift, no drums, no vocals",
+    "seed": 280371868,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "022-atmospheric-drum-and-bass-restrained-amen-break.wav",
+    "prompt": "Atmospheric drum and bass, restrained amen break, cavernous pads, deep bass, no vocals, 172 BPM",
+    "seed": 782019660,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "023-modular-synth-patch-self-generating-polyrhythmic.wav",
+    "prompt": "Modular synth patch, self-generating polyrhythmic patterns, clean digital timbres, no vocals, 120 BPM",
+    "seed": 1666341185,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "024-electronic-music-with-warm-analog-strings-gentle.wav",
+    "prompt": "Electronic music with warm analog strings, gentle pizzicato sequence, soft kick, focused and calm, no vocals, 114 BPM",
+    "seed": 276327588,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "025-organic-house-hand-percussion-earthy-bass-soft-m.wav",
+    "prompt": "Organic house, hand percussion, earthy bass, soft marimba melody, hypnotic, no vocals, 118 BPM",
+    "seed": 1206697251,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "026-chillwave-study-music-hazy-synth-chords-gentle-g.wav",
+    "prompt": "Chillwave study music, hazy synth chords, gentle groove, nostalgic and soft, no vocals, 100 BPM",
+    "seed": 1401201006,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "027-electronic-music-with-binaural-style-drone-under.wav",
+    "prompt": "Electronic music with binaural-style drone underneath, steady pulse, minimal melody, no vocals, 120 BPM",
+    "seed": 2111408931,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "028-ambient-dub-deep-echoing-chords-slow-pulse-ocean.wav",
+    "prompt": "Ambient dub, deep echoing chords, slow pulse, oceanic reverb, meditative, no vocals, 90 BPM",
+    "seed": 1141203560,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "029-ambient-electronic-focus-music-warm-evolving-syn.wav",
+    "prompt": "Ambient electronic focus music, warm evolving synth pads, gentle bell tones, no percussion, no vocals",
+    "seed": 41688374,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  },
+  {
+    "file": "030-liquid-drum-and-bass-for-focus-rolling-breakbeat.wav",
+    "prompt": "Liquid drum and bass for focus, rolling breakbeat, deep sub bass, lush jazzy chords, no vocals, 174 BPM",
+    "seed": 1133582426,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "file": "001-warmup-progressive-house-warmup-wide-pads-gradua.wav",
+    "prompt": "Progressive house warmup, wide pads, gradually rising arpeggio, driving kick, no vocals, 126 BPM",
+    "seed": 479238818,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "warmup"
+  },
+  {
+    "file": "002-warmup-rolling-tech-house-warmup-crisp-shuffled.wav",
+    "prompt": "Rolling tech house warmup, crisp shuffled hats, elastic bassline, building, no vocals, 125 BPM",
+    "seed": 398229063,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "warmup"
+  },
+  {
+    "file": "003-warmup-melodic-techno-brooding-bassline-slowly-o.wav",
+    "prompt": "Melodic techno, brooding bassline, slowly opening filter, hypnotic momentum, no vocals, 125 BPM",
+    "seed": 105507642,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "warmup"
+  },
+  {
+    "file": "004-warmup-breaks-influenced-warmup-chunky-broken-be.wav",
+    "prompt": "Breaks-influenced warmup, chunky broken beat, warm bass, growing intensity, no vocals, 128 BPM",
+    "seed": 1465739441,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "warmup"
+  },
+  {
+    "file": "005-warmup-deep-rolling-techno-patient-build-warm-su.wav",
+    "prompt": "Deep rolling techno, patient build, warm sub bass, steady kick, no vocals, 124 BPM",
+    "seed": 1691412554,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "warmup"
+  },
+  {
+    "file": "006-build-driving-peak-time-techno-relentless-kick-s.wav",
+    "prompt": "Driving peak-time techno, relentless kick, stabbing acid line, rising tension, no vocals, 132 BPM",
+    "seed": 787179825,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "007-build-big-room-electro-house-distorted-saw-bass.wav",
+    "prompt": "Big room electro house, distorted saw bass, huge snare build, aggressive, no vocals, 128 BPM",
+    "seed": 1262822019,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "008-build-hard-groove-techno-tribal-percussion-insis.wav",
+    "prompt": "Hard groove techno, tribal percussion, insistent kick, mounting pressure, no vocals, 134 BPM",
+    "seed": 860930255,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "009-build-electro-funk-workout-music-fat-synth-bass.wav",
+    "prompt": "Electro-funk workout music, fat synth bass, punchy drum machine, swagger, no vocals, 126 BPM",
+    "seed": 1022736529,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "010-build-industrial-techno-metallic-percussion-poun.wav",
+    "prompt": "Industrial techno, metallic percussion, pounding kick, menacing drone, no vocals, 138 BPM",
+    "seed": 1598645589,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "011-build-acid-techno-screaming-303-line-hard-kick-d.wav",
+    "prompt": "Acid techno, screaming 303 line, hard kick drum, hypnotic and aggressive, no vocals, 135 BPM",
+    "seed": 1417547773,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "012-build-bass-house-lurching-wobble-bassline-sharp.wav",
+    "prompt": "Bass house, lurching wobble bassline, sharp drums, confident swagger, no vocals, 128 BPM",
+    "seed": 1161583689,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "013-build-driving-electro-breaks-punchy-syncopated-d.wav",
+    "prompt": "Driving electro-breaks, punchy syncopated drums, snarling bass, no vocals, 130 BPM",
+    "seed": 497448915,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "build"
+  },
+  {
+    "file": "014-peak-hardcore-techno-overdriven-kick-blaring-sta.wav",
+    "prompt": "Hardcore techno, overdriven kick, blaring stabs, punishing intensity, no vocals, 155 BPM",
+    "seed": 650584230,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "015-peak-riddim-dubstep-instrumental-lurching-triple.wav",
+    "prompt": "Riddim dubstep instrumental, lurching triplet bass, brutal percussion, no vocals, 140 BPM",
+    "seed": 559363920,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "016-peak-hard-dubstep-instrumental-colossal-wobble-b.wav",
+    "prompt": "Hard dubstep instrumental, colossal wobble bass, crushing drops, heavy, no vocals, 140 BPM",
+    "seed": 1085220595,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "017-peak-heavy-electronic-rock-distorted-guitar-riff.wav",
+    "prompt": "Heavy electronic rock, distorted guitar riff over pounding synth bass, driving drums, no vocals, 140 BPM",
+    "seed": 2021848615,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "018-peak-aggressive-gym-techno-hammering-kick-dark-d.wav",
+    "prompt": "Aggressive gym techno, hammering kick, dark distorted bass, adrenaline, no vocals, 140 BPM",
+    "seed": 1649450912,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "019-peak-aggressive-synthwave-distorted-arpeggio-pou.wav",
+    "prompt": "Aggressive synthwave, distorted arpeggio, pounding gated drums, dark power, no vocals, 140 BPM",
+    "seed": 643641990,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "020-peak-neurofunk-drum-and-bass-snarling-reese-bass.wav",
+    "prompt": "Neurofunk drum and bass, snarling reese bass, precise breakbeat, ferocious, no vocals, 174 BPM",
+    "seed": 1904732841,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "021-peak-cinematic-battle-electronic-music-thunderou.wav",
+    "prompt": "Cinematic battle electronic music, thunderous percussion, brass stabs, roaring synth bass, no vocals, 130 BPM",
+    "seed": 495948542,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "022-peak-cinematic-hybrid-trailer-music-war-drums-di.wav",
+    "prompt": "Cinematic hybrid trailer music, war drums, distorted brass, electronic bass, no vocals, 138 BPM",
+    "seed": 2103838175,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "023-peak-electronic-trap-instrumental-booming-808-ba.wav",
+    "prompt": "Electronic trap instrumental, booming 808 bass, crisp snappy snares, menacing brass, no vocals, 145 BPM",
+    "seed": 1587226829,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "024-peak-gabber-influenced-workout-music-distorted-k.wav",
+    "prompt": "Gabber-influenced workout music, distorted kick barrage, raw energy, no vocals, 160 BPM",
+    "seed": 1200287279,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "025-peak-epic-synth-metal-instrumental-palm-muted-ri.wav",
+    "prompt": "Epic synth metal instrumental, palm-muted riffing, soaring lead, double kick drums, no vocals, 150 BPM",
+    "seed": 257130252,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "026-peak-drumstep-instrumental-half-time-monstrous-b.wav",
+    "prompt": "Drumstep instrumental, half-time monstrous bass drops, huge drums, no vocals, 150 BPM",
+    "seed": 714403276,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "027-peak-hardstyle-instrumental-distorted-kick-eupho.wav",
+    "prompt": "Hardstyle instrumental, distorted kick, euphoric lead, enormous energy, no vocals, 150 BPM",
+    "seed": 48799029,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "028-peak-aggressive-jungle-chopped-amen-break-deep-r.wav",
+    "prompt": "Aggressive jungle, chopped amen break, deep rumbling bass, raw and urgent, no vocals, 170 BPM",
+    "seed": 632377396,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "029-peak-phonk-workout-music-distorted-cowbell-melod.wav",
+    "prompt": "Phonk workout music, distorted cowbell melody, heavy 808 bass, aggressive, no vocals, 145 BPM",
+    "seed": 109883304,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "030-peak-peak-time-hard-techno-rumbling-kick-siren-s.wav",
+    "prompt": "Peak-time hard techno, rumbling kick, siren stabs, hypnotic brutality, no vocals, 145 BPM",
+    "seed": 767544413,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "031-peak-aggressive-electro-industrial-grinding-bass.wav",
+    "prompt": "Aggressive electro-industrial, grinding bass, mechanical percussion, dark, no vocals, 136 BPM",
+    "seed": 1981378424,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "032-peak-dark-psytrance-rolling-triplet-bassline-hyp.wav",
+    "prompt": "Dark psytrance, rolling triplet bassline, hypnotic acid stabs, relentless, no vocals, 145 BPM",
+    "seed": 481605820,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "033-peak-breakcore-tinged-workout-music-frantic-brea.wav",
+    "prompt": "Breakcore-tinged workout music, frantic breakbeat, huge bass, relentless drive, no vocals, 160 BPM",
+    "seed": 1849755678,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "peak"
+  },
+  {
+    "file": "034-pump-electro-boogie-slap-synth-bass-bright-chord.wav",
+    "prompt": "Electro-boogie, slap synth bass, bright chords, unstoppable strut, no vocals, 118 BPM",
+    "seed": 2043138997,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "035-pump-big-beat-huge-breakbeat-drums-fuzzy-bass-sw.wav",
+    "prompt": "Big beat, huge breakbeat drums, fuzzy bass, swaggering horn stabs, no vocals, 130 BPM",
+    "seed": 866620628,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "036-pump-breakbeat-funk-chunky-drums-gritty-bass-rif.wav",
+    "prompt": "Breakbeat funk, chunky drums, gritty bass riff, brass hits, swaggering, no vocals, 128 BPM",
+    "seed": 690332435,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "037-pump-nu-disco-power-groove-driving-bassline-brig.wav",
+    "prompt": "Nu-disco power groove, driving bassline, bright stabs, propulsive, no vocals, 124 BPM",
+    "seed": 926537114,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "038-pump-funky-electro-house-slap-bass-synth-punchy.wav",
+    "prompt": "Funky electro house, slap bass synth, punchy claps, confident strut, no vocals, 126 BPM",
+    "seed": 25736639,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "039-pump-french-house-banger-filtered-disco-loop-thi.wav",
+    "prompt": "French house banger, filtered disco loop, thick compression, relentless groove, no vocals, 125 BPM",
+    "seed": 1571961010,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "040-pump-ghetto-funk-heavy-hip-hop-break-filthy-synt.wav",
+    "prompt": "Ghetto funk, heavy hip-hop break, filthy synth bass, party energy, no vocals, 110 BPM",
+    "seed": 2111791784,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "pump"
+  },
+  {
+    "file": "041-cooldown-deep-house-cooldown-soft-chords-gentle.wav",
+    "prompt": "Deep house cooldown, soft chords, gentle rolling bass, easing off, no vocals, 118 BPM",
+    "seed": 2053545199,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "cooldown"
+  },
+  {
+    "file": "042-cooldown-ambient-techno-afterglow-distant-pads-s.wav",
+    "prompt": "Ambient techno afterglow, distant pads, slow pulse, reflective, no vocals, 110 BPM",
+    "seed": 1944720561,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "cooldown"
+  },
+  {
+    "file": "043-cooldown-dub-techno-cooldown-deep-echoing-chords.wav",
+    "prompt": "Dub techno cooldown, deep echoing chords, tape delay, unwinding, no vocals, 115 BPM",
+    "seed": 417799336,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "cooldown"
+  },
+  {
+    "file": "044-cooldown-downtempo-electronic-comedown-warm-pads.wav",
+    "prompt": "Downtempo electronic comedown, warm pads, slow heavy beat, satisfied and spacious, no vocals, 100 BPM",
+    "seed": 602716281,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "cooldown"
+  },
+  {
+    "file": "045-cooldown-downtempo-breakbeat-comedown-dusty-drum.wav",
+    "prompt": "Downtempo breakbeat comedown, dusty drums, warm bass, spacious, no vocals, 95 BPM",
+    "seed": 1793262352,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "phase": "cooldown"
+  }
+]
