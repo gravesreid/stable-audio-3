@@ -173,3 +173,5 @@ wandb/*
 .DS_Store
 *.safetensors
 .claude
+
+*.wave

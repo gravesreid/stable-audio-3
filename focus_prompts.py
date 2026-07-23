@@ -6,29 +6,21 @@ each family is a sub-style with its own slot pools, and a prompt is one value
 drawn from each pool. Pool sizes are pairwise coprime-ish, so cycling them
 odometer-style walks a long path before any combination comes back around --
 lcm(5,6,7,8,11) = 9240 prompts per family, which is more than we will ever ask
-for.
+for. The allocation/drawing/interleaving machinery lives in prompt_bank.py.
 
-Families are weighted toward steady, propulsive, cinematic material: driving
-electronic and string-led crossover carry the playlist, ambient is a garnish.
-Nothing here has vocals, and no slot value mentions voices, choirs or lyrics --
-the model will happily sing if invited.
+Families are tuned for aggressive, locked-in focus: relentless, hard-driving,
+full-intensity material that pins your attention and does not let it wander.
+Hard electronic and string-led crossover carry the playlist, and every family
+hammers forward -- nothing mellow, ambient or downtempo to drift out on. Two
+constraints hold the aggression to focus music rather than chaos: nothing here
+has vocals (no slot value mentions voices, choirs or lyrics -- the model will
+happily sing if invited), and nothing drops out. Energy stays pinned; there are
+no build-ups that release and no breakdowns to break the trance.
 """
 
-import math
-from dataclasses import dataclass
-
-
-@dataclass(frozen=True)
-class Family:
-    """A sub-style. `template` is formatted with one value from each slot pool."""
-
-    name: str
-    weight: float
-    template: str
-    slots: dict
-
-    def capacity(self) -> int:
-        return math.lcm(*(len(pool) for pool in self.slots.values()))
+from prompt_bank import Family
+from prompt_bank import build_prompts as _build_prompts
+from prompt_bank import capacity as _capacity
 
 
 # Every family below uses this shape, so prompts read consistently to the model:
@@ -42,83 +34,83 @@ FAMILIES = [
         "cinematic", 3.0, WITH_BPM,
         {
             "style": [
-                "Cinematic electronic underscore",
-                "Hybrid orchestral-electronic score",
-                "Widescreen film score electronica",
-                "Restrained trailer music, tension held without release",
-                "Night drive film score",
-                "Sci-fi film score, cold and spacious",
-                "Heist montage score, controlled and precise",
+                "Relentless action film score, electronic and orchestral",
+                "Driving hybrid orchestral-electronic score, full intensity",
+                "Widescreen chase-sequence score",
+                "Trailer music at full tilt, no let-up",
+                "High-stakes heist score, precise and pounding",
+                "Sci-fi battle score, cold and merciless",
+                "Pursuit montage score, hard and propulsive",
             ],
             "lead": [
-                "long sustained string ostinato",
-                "muted piano motif circling",
-                "solo violin tracing a simple line",
-                "distant brass held in reserve",
-                "glassy synth lead, unhurried",
-                "cello line moving in slow steps",
-                "plucked harp-like sequence",
-                "bowed vibraphone melody",
+                "hammering string ostinato",
+                "urgent piano motif pounding in octaves",
+                "solo violin sawing a fierce line",
+                "brass stabs cutting through",
+                "razor-edged synth lead, driving",
+                "cello line grinding in fast steps",
+                "aggressive plucked sequence, machine-tight",
+                "bowed metallic melody, tense",
             ],
             "texture": [
-                "warm analog pads underneath",
-                "granular string textures in the background",
-                "soft tape-saturated strings",
-                "wide reverberant space",
-                "low drone holding the harmony",
+                "distorted analog pads pushing underneath",
+                "granular string textures, agitated",
+                "gritty tape-saturated strings",
+                "dense reverberant wall of sound",
+                "menacing low drone driving the harmony",
             ],
             "motion": [
-                "steady ticking percussion",
-                "insistent low pulse",
-                "muted heartbeat kick",
-                "restrained taiko-like floor toms",
-                "staccato strings marking time",
-                "sparse rim clicks keeping time",
+                "pounding taiko floor toms",
+                "insistent hammering low pulse",
+                "hard driving kick, relentless",
+                "militaristic snare marking time",
+                "staccato strings stabbing the beat",
+                "relentless sixteenth-note percussion",
             ],
-            "bpm": ["92", "96", "100", "104", "108", "112", "116", "120", "124",
-                    "128", "132"],
+            "bpm": ["120", "124", "128", "130", "132", "134", "136", "138", "140",
+                    "144", "150"],
         },
     ),
     # ------------------------------------------------- electric violin over EDM
     Family(
-        "violin_electronic", 2.5, WITH_BPM,
+        "violin_electronic", 3.0, WITH_BPM,
         {
             "style": [
-                "Electronic violin crossover instrumental",
-                "Dance instrumental built around a solo violin",
-                "Celtic-tinged electronic instrumental, violin lead",
-                "Cinematic dance instrumental with a violin lead",
-                "Folk-electronic crossover, fiddle over programmed drums",
-                "Epic violin electronica",
-                "Middle-Eastern-inflected electronic instrumental, violin lead",
+                "Aggressive electronic violin crossover instrumental",
+                "High-energy dance instrumental built around a shredding violin",
+                "Celtic-tinged electronic instrumental, fierce violin lead",
+                "Epic cinematic dance instrumental, violin lead at full power",
+                "Folk-electronic crossover, fiddle driving hard over programmed drums",
+                "Epic violin electronica, relentless",
+                "Middle-Eastern-inflected electronic banger, violin lead",
             ],
             "lead": [
-                "energetic staccato violin riff",
-                "soaring legato violin melody",
-                "double-stopped violin hook",
-                "pizzicato violin ostinato",
-                "violin trading phrases with a synth lead",
-                "dancing sixteenth-note violin line",
-                "violin melody doubled an octave up",
-                "keening violin countermelody over a string section",
+                "furious staccato violin riff",
+                "soaring violin melody pushed to the limit",
+                "double-stopped violin hook, aggressive",
+                "machine-gun pizzicato violin ostinato",
+                "violin trading fierce phrases with a distorted synth",
+                "blistering sixteenth-note violin line",
+                "violin melody doubled in screaming octaves",
+                "keening violin countermelody cutting over a driving string section",
             ],
             "texture": [
-                "layered string section underneath",
-                "wide supersaw chords",
-                "warm analog pads and plucks",
-                "orchestral strings and synth bass together",
-                "airy bell textures",
+                "layered string section pushing underneath",
+                "huge distorted supersaw chords",
+                "gritty analog pads and hard plucks",
+                "orchestral strings and heavy synth bass together",
+                "aggressive bell stabs",
             ],
             "motion": [
-                "steady four-on-the-floor kick",
-                "punchy programmed drums, no drops",
-                "driving syncopated beat",
-                "propulsive kick and clap",
-                "rolling percussion with hand drums",
-                "steady drive, no big breakdowns",
+                "pounding four-on-the-floor kick",
+                "hard-hitting programmed drums, no drops",
+                "driving syncopated beat, relentless",
+                "punchy kick and clap, full throttle",
+                "rolling hand drums at full intensity",
+                "steady relentless drive, no breakdowns",
             ],
-            "bpm": ["112", "116", "120", "124", "126", "128", "130", "132", "134",
-                    "136", "140"],
+            "bpm": ["124", "128", "130", "132", "134", "136", "138", "140", "144",
+                    "148", "150"],
         },
     ),
     # ------------------------------------------------ layered piano and cellos
@@ -126,83 +118,83 @@ FAMILIES = [
         "piano_cello", 2.0, WITH_BPM,
         {
             "style": [
-                "Cinematic piano and cello duet",
-                "Neo-classical crossover for piano and layered cellos",
-                "Percussive piano and cello instrumental",
-                "Grand piano with a wall of overdubbed cellos",
-                "Chamber crossover instrumental, piano and cello",
-                "Uplifting piano and cello arrangement, cinematic",
-                "Piano and cello score, wide and hopeful",
+                "Percussive piano and cello instrumental, driving hard",
+                "Aggressive piano and cello duel, cinematic",
+                "Pounding piano and cello arrangement, full intensity",
+                "Piano and cello score, urgent and relentless",
+                "Rhythmic piano and cello crossover, propulsive",
+                "Dark piano and cello instrumental, hammering",
+                "Epic piano and cello anthem, driving",
             ],
             "lead": [
-                "rippling piano arpeggios",
-                "lyrical cello melody in the upper register",
-                "octave piano melody",
-                "cello and piano trading the melody",
-                "rolling left-hand piano ostinato",
-                "cello double-stops carrying the theme",
-                "sparse piano melody with lots of air",
-                "cascading piano figure over a cello pedal",
+                "hammering piano arpeggios",
+                "fierce cello melody in the upper register",
+                "pounding octave piano melody",
+                "cello and piano trading aggressive lines",
+                "relentless rolling left-hand piano ostinato",
+                "cello double-stops driving the theme hard",
+                "urgent piano melody, no let-up",
+                "cascading piano figure over a grinding cello pedal",
             ],
             "texture": [
-                "stacked cello harmonies underneath",
-                "pizzicato cellos marking the pulse",
-                "warm room reverb, close-miked",
-                "low cello drone holding the key",
-                "subtle synth pad under the acoustic instruments",
+                "stacked cello harmonies pushing underneath",
+                "hard pizzicato cellos hammering the pulse",
+                "tight close-miked room, aggressive",
+                "grinding low cello drone holding the key",
+                "heavy synth pad under the acoustic instruments",
             ],
             "motion": [
-                "cello body percussion keeping time",
-                "steady driving eighth notes",
-                "light cajon-like pulse",
-                "no drums, momentum from the ostinato",
-                "propulsive staccato bass line",
-                "gentle rocking rhythm",
+                "hard cello body percussion driving time",
+                "pounding driving eighth notes",
+                "relentless cajon pulse",
+                "propulsive staccato bass line, aggressive",
+                "stomping four-on-the-floor feel",
+                "tight relentless groove, no let-up",
             ],
-            "bpm": ["84", "88", "92", "96", "100", "104", "108", "112", "116",
-                    "120", "126"],
+            "bpm": ["108", "112", "116", "120", "124", "128", "130", "132", "136",
+                    "140", "144"],
         },
     ),
     # ------------------------------------------------------ driving cello duo
     Family(
-        "cello_rock", 1.5, WITH_BPM,
+        "cello_rock", 2.5, WITH_BPM,
         {
             "style": [
-                "Cello rock instrumental, two cellos",
-                "Dramatic cello duo instrumental, rock energy",
-                "Cello-driven instrumental with a rock rhythm section",
-                "Symphonic rock instrumental led by cellos",
-                "Aggressive classical crossover for cellos",
-                "Cello ensemble instrumental, driving and dark",
-                "Baroque-flavored cello rock instrumental",
+                "Cello metal instrumental, two cellos, full aggression",
+                "Dramatic cello duo instrumental, hard rock energy",
+                "Cello-driven instrumental with a pounding rock rhythm section",
+                "Symphonic metal instrumental led by cellos",
+                "Aggressive classical crossover for shredding cellos",
+                "Cello ensemble instrumental, driving and savage",
+                "Baroque-flavored cello metal instrumental",
             ],
             "lead": [
-                "distorted cello riff",
-                "fast sawing cello ostinato",
-                "soaring cello melody over the riff",
-                "two cellos trading aggressive lines",
-                "cello playing a bass riff with attitude",
-                "chugging staccato cello chords",
-                "cello melody in the high register, intense",
-                "cellos in unison octaves",
+                "heavily distorted cello riff",
+                "furious sawing cello ostinato",
+                "soaring cello melody screaming over the riff",
+                "two cellos trading savage lines",
+                "cello playing a menacing bass riff",
+                "chugging palm-muted cello chords",
+                "cello melody in the high register, ferocious",
+                "cellos in unison octaves, full force",
             ],
             "texture": [
-                "string section swelling behind",
-                "gritty amp tone on the low cello",
-                "big room reverb",
-                "layered cello harmonies",
-                "synth bass reinforcing the low end",
+                "string section slamming behind",
+                "gritty high-gain amp tone on the low cello",
+                "huge room reverb",
+                "layered cello harmonies, dense",
+                "heavy synth bass reinforcing the low end",
             ],
             "motion": [
-                "hard-hitting rock drums",
-                "driving kick and snare, steady",
+                "hard-hitting rock drums, relentless",
+                "pounding kick and snare, driving",
                 "relentless eighth-note pulse",
-                "tight groove, no tempo changes",
-                "punchy drums, sustained intensity",
-                "propulsive half-time groove",
+                "tight aggressive groove, no tempo changes",
+                "punchy drums, sustained full intensity",
+                "propulsive stomping half-time groove",
             ],
-            "bpm": ["96", "100", "104", "108", "112", "116", "120", "124", "128",
-                    "132", "138"],
+            "bpm": ["112", "116", "120", "124", "128", "132", "136", "140", "144",
+                    "150", "160"],
         },
     ),
     # --------------------------------------------- steady electronic momentum
@@ -210,322 +202,142 @@ FAMILIES = [
         "driving", 3.0, WITH_BPM,
         {
             "style": [
-                "Melodic techno for deep focus",
-                "Progressive house for concentration",
-                "Driving electronic coding music",
-                "Deep rolling techno for working",
-                "Melodic house for concentration",
-                "Trance-influenced focus instrumental",
-                "Cinematic melodic techno",
+                "Peak-time driving techno for locked-in focus",
+                "Relentless progressive house for concentration",
+                "Hard driving electronic coding music",
+                "Pounding rolling techno for deep work",
+                "High-energy melodic house for concentration",
+                "Trance-influenced focus banger, full drive",
+                "Cinematic peak-time techno",
             ],
             "lead": [
-                "hypnotic arpeggio cycling",
-                "plucked synth motif",
-                "soft supersaw chord stabs",
-                "muted string ostinato over the beat",
-                "bright bell sequence",
-                "restrained acid line",
-                "slowly opening filter on a saw lead",
-                "detuned pluck sequence",
+                "hypnotic arpeggio cycling hard",
+                "aggressive plucked synth motif",
+                "hard supersaw chord stabs",
+                "driving string ostinato over the beat",
+                "piercing bell sequence",
+                "screaming acid line",
+                "filter cranking open on a saw lead",
+                "detuned pluck sequence, relentless",
             ],
             "texture": [
-                "wide evolving pads",
-                "warm analog bass underneath",
-                "reverb-soaked chord stabs",
-                "granular textures in the background",
-                "deep sub bass and little else",
+                "wide aggressive evolving pads",
+                "grinding analog bass underneath",
+                "hard reverb-slammed chord stabs",
+                "agitated granular textures in the background",
+                "pounding sub bass and little else",
             ],
             "motion": [
-                "steady four-on-the-floor kick, no drops",
-                "rolling bassline, unchanging groove",
-                "gentle sidechain pumping",
-                "dry rimshot groove",
-                "shuffled hats, hypnotic",
-                "tight percussion, minimal changes",
+                "pounding four-on-the-floor kick, no drops",
+                "relentless rolling bassline, unchanging",
+                "hard rimshot groove",
+                "driving hats, hypnotic and tight",
+                "relentless percussion, minimal changes",
+                "stomping kick, full throttle",
             ],
-            "bpm": ["118", "120", "121", "122", "124", "125", "126", "128", "130",
-                    "132", "134"],
+            "bpm": ["126", "128", "130", "132", "134", "136", "138", "140", "142",
+                    "144", "150"],
         },
     ),
-    # ------------------------------------------------------- hypnotic minimal
+    # ------------------------------------------------------- hard acid drive
     Family(
-        "hypnotic_minimal", 2.0, WITH_BPM,
+        "acid_drive", 2.0, WITH_BPM,
         {
             "style": [
-                "Minimal techno for deep focus",
-                "Dub techno",
-                "Microhouse",
-                "Lo-fi house",
-                "Detroit-influenced electro",
-                "Phase-shifting minimal electronic music",
-                "Self-generating modular synth patch",
+                "Driving acid techno for hyperfocus",
+                "Hard rolling techno, relentless",
+                "Pumping electro, aggressive and tight",
+                "Acid-fueled focus banger",
+                "Detroit-influenced hard electro",
+                "Relentless driving modular synth workout",
+                "Peak-time acid trance instrumental",
             ],
             "lead": [
-                "tiny repeating marimba-like pattern",
-                "deep chord stab drenched in reverb",
-                "understated bassline carrying the tune",
-                "clean digital sequence, polyrhythmic",
-                "warm detuned chords",
-                "single-note pulse, slowly filtered",
-                "crisp drum machine and a restrained melody",
-                "muffled organ chords",
+                "screaming 303 acid line",
+                "aggressive chord stab drenched in reverb",
+                "grinding bassline carrying the tune",
+                "hard digital sequence, polyrhythmic and tight",
+                "detuned chords pushed hard",
+                "single-note pulse, filter slamming",
+                "crisp drum machine and a relentless riff",
+                "distorted organ stabs",
             ],
             "texture": [
-                "vinyl crackle and tape hiss",
-                "tape delay smearing everything",
-                "clicky micro-percussion",
-                "subterranean sub bass",
-                "dry and close, almost no reverb",
+                "gritty distortion and tape saturation",
+                "hard tape delay driving everything",
+                "clicky aggressive micro-percussion",
+                "pounding subterranean sub bass",
+                "dry and hard, in-your-face",
             ],
             "motion": [
-                "hypnotic loop, barely changing",
-                "clicky percussion, relaxed swing",
-                "soft kick pulse, steady",
-                "understated shuffled groove",
-                "steady pulse with slow filter movement",
-                "repetitive and unobtrusive",
+                "relentless loop, hammering forward",
+                "hard clicky percussion, tight",
+                "pounding kick pulse, driving",
+                "aggressive shuffled groove",
+                "steady pounding pulse with slamming filter movement",
+                "relentless and unbroken",
             ],
-            "bpm": ["112", "114", "116", "118", "120", "121", "122", "124", "125",
-                    "126", "128"],
-        },
-    ),
-    # ---------------------------------------------- post-classical + synths
-    Family(
-        "neo_classical", 1.5, WITH_BPM,
-        {
-            "style": [
-                "Neo-classical electronic instrumental",
-                "Post-classical piano with electronics",
-                "Modern classical crossover, piano and synth",
-                "Chamber electronic instrumental",
-                "Nordic neo-classical instrumental",
-                "Minimalist classical instrumental, repeating cells",
-                "Cinematic neo-classical instrumental",
-            ],
-            "lead": [
-                "arpeggiated felt piano",
-                "solo violin over a synth bed",
-                "cello and piano in dialogue",
-                "pizzicato string sequence",
-                "music-box celeste melody",
-                "string quartet playing a repeating cell",
-                "prepared piano figure",
-                "glassy sustained tones",
-            ],
-            "texture": [
-                "soft synth pad underneath",
-                "close-miked piano, hammers audible",
-                "warm tape saturation",
-                "wide reverberant hall",
-                "low string drone",
-            ],
-            "motion": [
-                "quiet steady pulse",
-                "soft ticking percussion",
-                "no drums, momentum from the arpeggio",
-                "gentle electronic kick far back in the mix",
-                "hypnotic repeating figure",
-                "slow rocking motion",
-            ],
-            "bpm": ["76", "80", "84", "88", "92", "96", "100", "104", "108", "112",
-                    "116"],
+            "bpm": ["128", "130", "132", "134", "136", "138", "140", "142", "144",
+                    "145", "150"],
         },
     ),
     # ------------------------------------------------------- rolling breakbeat
     Family(
-        "drum_and_bass", 1.0, WITH_BPM,
+        "drum_and_bass", 1.5, WITH_BPM,
         {
             "style": [
-                "Liquid drum and bass for focus",
-                "Atmospheric drum and bass",
-                "Cinematic drum and bass with orchestral elements",
-                "Halftime drum and bass, spacious",
-                "Deep rolling drum and bass",
-                "Jazzy liquid drum and bass",
-                "Hypnotic minimal drum and bass",
+                "Rolling neurofunk drum and bass for focus",
+                "High-energy drum and bass, relentless",
+                "Cinematic drum and bass with pounding orchestral elements",
+                "Driving jump-up-tinged drum and bass, tight",
+                "Deep rolling drum and bass at full drive",
+                "Aggressive liquid drum and bass",
+                "Relentless minimal drum and bass",
             ],
             "lead": [
-                "lush jazzy chords",
-                "warm melodic pads",
-                "sampled string phrase, chopped",
-                "soft Rhodes chords",
-                "distant piano melody",
-                "solo violin over the break",
-                "muted bell melody",
-                "cello line under the drums",
+                "hard-edged jazzy chords",
+                "driving melodic pads",
+                "chopped string phrase, aggressive",
+                "hard Rhodes stabs",
+                "urgent piano melody",
+                "fierce solo violin over the break",
+                "piercing bell melody",
+                "grinding cello line under the drums",
             ],
             "texture": [
-                "deep sub bass underneath",
-                "cavernous pads",
-                "dusty tape-saturated backdrop",
-                "wide reverberant space",
-                "warm analog bass",
+                "pounding sub bass underneath",
+                "dense cavernous pads",
+                "gritty tape-saturated backdrop",
+                "wide aggressive reverberant space",
+                "grinding analog bass",
             ],
             "motion": [
-                "rolling breakbeat, steady",
-                "restrained amen break",
-                "crisp two-step drums",
-                "propulsive but unobtrusive drums",
+                "rolling breakbeat, relentless",
+                "hard-driving amen break",
+                "crisp aggressive two-step drums",
+                "propulsive pounding drums",
                 "tight rolling percussion, no drops",
-                "steady break, minimal changes",
+                "relentless break, full drive",
             ],
-            "bpm": ["165", "167", "168", "169", "170", "171", "172", "173", "174",
-                    "175", "176"],
-        },
-    ),
-    # ---------------------------------------------------- downtempo / IDM
-    Family(
-        "downtempo", 1.0, WITH_BPM,
-        {
-            "style": [
-                "Downtempo breakbeat",
-                "Glitchy IDM for concentration",
-                "Braindance electronica",
-                "Downtempo electronica",
-                "Chillwave study music",
-                "Focused trip-hop instrumental",
-                "Ambient breakbeat",
-            ],
-            "lead": [
-                "mellow Rhodes chords",
-                "playful melodic synths",
-                "hazy detuned synth chords",
-                "warm melodic pads",
-                "distant piano melody",
-                "muted bell melody",
-                "soft plucked guitar figure",
-                "chopped string sample",
-            ],
-            "texture": [
-                "warm tape saturation",
-                "dusty vinyl crackle",
-                "deep sub bass underneath",
-                "wide atmospheric pads",
-                "granular textures drifting",
-            ],
-            "motion": [
-                "dusty chopped drums, relaxed",
-                "intricate but soft percussion",
-                "crisp broken beat, gentle",
-                "slow steady groove",
-                "soft head-nod pulse",
-                "unhurried shuffled drums",
-            ],
-            "bpm": ["85", "88", "90", "92", "95", "98", "100", "104", "108", "112",
-                    "115"],
-        },
-    ),
-    # ------------------------------------------------------------- ambient
-    Family(
-        "ambient", 1.0, NO_BPM,
-        {
-            "style": [
-                "Ambient electronic focus music",
-                "Generative ambient music",
-                "Ambient dub",
-                "Kosmische synthesizer music",
-                "Berlin school sequencer music",
-                "Ambient techno, distant and slow",
-                "Cinematic ambient score",
-            ],
-            "lead": [
-                "warm evolving synth pads",
-                "overlapping sine tones",
-                "gentle bell tones",
-                "distant bowed strings",
-                "slow analog sequence",
-                "deep echoing chords",
-                "sustained cello drone",
-                "soft glassy arpeggio",
-            ],
-            "texture": [
-                "granular textures drifting",
-                "oceanic reverb",
-                "tape hiss and wow",
-                "wide stereo field",
-                "low drone underneath",
-            ],
-            "motion": [
-                "no drums, slow harmonic drift",
-                "soft kick pulse, very far back",
-                "slow steady pulse",
-                "meditative and static",
-                "barely-there percussion",
-                "gradually evolving, never arriving",
-            ],
+            "bpm": ["168", "170", "172", "173", "174", "175", "176", "177", "178",
+                    "180", "182"],
         },
     ),
 ]
 
 NEGATIVE_PROMPT = (
     "vocals, singing, choir, vocal chops, spoken word, speech, lyrics, "
-    "harsh distortion, sudden loud transitions, dissonance, applause, "
-    "crowd noise, low quality"
+    "ambient, downtempo, mellow, sparse, gentle, meandering, relaxing, "
+    "beatless, new age, big drops, breakdowns, sudden silence, "
+    "applause, crowd noise, low quality"
 )
 
 
 def capacity() -> int:
-    """Longest playlist the bank can fill without repeating a prompt.
-
-    Not the sum of the families' combination counts: tracks are handed out by
-    weight, so the playlist is capped by whichever family exhausts its
-    combinations first -- normally the lightest-weighted one.
-    """
-    total = sum(f.weight for f in FAMILIES)
-    return min(int(f.capacity() * total / f.weight) for f in FAMILIES)
-
-
-def _allocate(n: int) -> dict:
-    """Split n tracks across families by weight, largest remainder first."""
-    total = sum(f.weight for f in FAMILIES)
-    exact = {f.name: n * f.weight / total for f in FAMILIES}
-    counts = {name: int(x) for name, x in exact.items()}
-
-    order = sorted(FAMILIES, key=lambda f: exact[f.name] - counts[f.name], reverse=True)
-    for f in order[: n - sum(counts.values())]:
-        counts[f.name] += 1
-    return counts
-
-
-def _draw(family: Family, n: int, rng) -> list:
-    """n distinct prompts from `family`, each differing from the last in every slot.
-
-    Shuffling the pools and then stepping every one of them at once means slot k
-    repeats on a cycle of len(pool_k), and the combination only repeats at the
-    lcm of those lengths -- so the prompts stay unique, and adjacent draws never
-    share so much as a bpm.
-    """
-    if n > family.capacity():
-        raise ValueError(f"{family.name}: asked for {n} prompts, capacity is "
-                         f"{family.capacity()}")
-
-    pools = {slot: list(values) for slot, values in family.slots.items()}
-    for values in pools.values():
-        rng.shuffle(values)
-
-    return [
-        family.template.format(
-            **{slot: values[i % len(values)] for slot, values in pools.items()}
-        )
-        for i in range(n)
-    ]
+    """Longest focus playlist the bank can fill without repeating a prompt."""
+    return _capacity(FAMILIES)
 
 
 def build_prompts(n: int, rng) -> tuple:
-    """Return (prompts, per-family counts): n distinct prompts, families interleaved.
-
-    Each family's tracks are spread evenly across the playlist by sorting on a
-    stratified key, so you never get four ambient tracks back to back.
-    """
-    if n > capacity():
-        raise ValueError(f"asked for {n} prompts, bank capacity is {capacity()}")
-
-    counts = _allocate(n)
-    keyed = []
-    for family in FAMILIES:
-        drawn = _draw(family, counts[family.name], rng)
-        for i, prompt in enumerate(drawn):
-            keyed.append(((i + rng.random()) / len(drawn), prompt))
-
-    keyed.sort(key=lambda pair: pair[0])
-    return [prompt for _, prompt in keyed], counts
+    """Return (prompts, per-family counts): n distinct prompts, families interleaved."""
+    return _build_prompts(n, FAMILIES, rng)
