@@ -18,6 +18,51 @@ def slugify(text: str, max_len: int = 48) -> str:
     return slug.strip("-")[:max_len].strip("-")
 
 
+# Peak normalization is right for the workout playlists: every track hits the
+# same ceiling, and dense aggressive material has a small crest factor anyway. It
+# is wrong for mellow material. A sparse piano piece normalized on its loudest
+# attack sits ~20 dB quieter in the body than a dense pad does, and a background
+# playlist that jumps 20 dB between tracks is a background playlist you look up
+# from. RMS mode matches tracks by body instead: it aims for a loudness target,
+# caps how far it will push a track past peak normalization (so a very sparse
+# track ends up a little quiet rather than crushed), and rounds off whatever pokes
+# past the knee instead of clipping it.
+RMS_TARGET_DBFS = -20.0
+RMS_MAX_BOOST_DB = 8.0
+SOFT_CLIP_KNEE = 0.6
+CEILING = 0.95
+
+
+def soft_clip(wav, knee: float = SOFT_CLIP_KNEE, ceiling: float = CEILING):
+    """Squash |wav| above `knee` into [knee, ceiling), smoothly and monotonically.
+
+    tanh is used only above the knee, so it starts with unity slope there: quiet
+    passages pass through untouched and only the peak tips are rounded.
+    """
+    room = ceiling - knee
+    over = (wav.abs() - knee).clamp(min=0)
+    magnitude = wav.abs().clamp(max=knee) + room * torch.tanh(over / room)
+    return torch.sign(wav) * magnitude
+
+
+def normalize_wav(wav, mode: str = "peak"):
+    """Scale `wav` to a consistent level. mode is "peak" or "rms"."""
+    peak = wav.abs().max()
+    if peak <= 0:
+        return wav
+
+    peak_gain = CEILING / peak
+    if mode == "peak":
+        return wav * peak_gain
+    if mode != "rms":
+        raise ValueError(f"unknown normalize mode {mode!r}")
+
+    rms = wav.pow(2).mean().sqrt()
+    gain = 10 ** (RMS_TARGET_DBFS / 20) / rms
+    gain = min(gain, peak_gain * 10 ** (RMS_MAX_BOOST_DB / 20))
+    return soft_clip(wav * gain)
+
+
 def add_model_args(parser, default_out: str):
     """Output, model, and sampling flags. Nothing about playlist length."""
     parser.add_argument("--out", type=str, default=default_out, help="Output directory")
@@ -46,7 +91,8 @@ def n_tracks_for(args) -> int:
     return max(1, round(args.hours * 3600 / args.duration))
 
 
-def generate_playlist(args, playlist, negative_prompt, rng, phases=None, durations=None):
+def generate_playlist(args, playlist, negative_prompt, rng, phases=None,
+                      durations=None, normalize="peak"):
     """Generate `playlist` (a list of prompt strings) into args.out.
 
     `phases` is an optional list of the same length labelling each track, used
@@ -54,6 +100,9 @@ def generate_playlist(args, playlist, negative_prompt, rng, phases=None, duratio
 
     `durations` is an optional per-track length in seconds; defaults to
     args.duration for every track. Use it when phases must hit exact runtimes.
+
+    `normalize` is "peak" or "rms" -- see normalize_wav. Use "rms" when the
+    tracks must sit at the same perceived level as each other.
     """
     out_dir = Path(args.out).expanduser()
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -88,9 +137,7 @@ def generate_playlist(args, playlist, negative_prompt, rng, phases=None, duratio
 
         # (batch, channels, samples) -> (channels, samples), float32 in [-1, 1]
         wav = audio[0].cpu()
-        peak = wav.abs().max()
-        if peak > 0:
-            wav = wav * (0.95 / peak)  # normalize; generations vary a lot in level
+        wav = normalize_wav(wav, normalize)  # generations vary a lot in level
 
         phase = phases[i - 1] if phases else None
         stem = slugify(f"{phase}-{prompt}" if phase else prompt)

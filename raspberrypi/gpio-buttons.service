@@ -1,0 +1,17 @@
+[Unit]
+Description=GPIO button input for music player
+After=mp3player.service
+BindsTo=mp3player.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi
+User=pi
+SupplementaryGroups=gpio
+Environment=GPIOZERO_PIN_FACTORY=lgpio
+ExecStart=/usr/bin/python3 /home/pi/gpio-buttons.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

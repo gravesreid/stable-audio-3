@@ -1,0 +1,8 @@
+alias pause='echo cycle pause | socat - /tmp/mpvsocket'
+alias nuke='/home/pi/nuke'
+alias skip='echo "playlist-next force" | socat - /tmp/mpvsocket'
+alias np='echo "{ \"command\": [\"get_property\", \"media-title\"] }" | socat - /tmp/mpvsocket | grep -o "\"data\":\"[^\"]*\"" | cut -d"\"" -f4'
+alias up='echo add volume 5 | socat - /tmp/mpvsocket'    
+alias down='echo add volume -5 | socat - /tmp/mpvsocket'
+alias nuke='/home/pi/nuke'
+alias like='/home/pi/like'

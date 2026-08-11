@@ -1,0 +1,13 @@
+# /etc/systemd/system/mp3player.service
+[Unit]
+Description=Music player
+After=sound.target
+
+[Service]
+ExecStart=/usr/bin/mpv --no-video --loop-playlist=inf --shuffle --input-ipc-server=/tmp/mpvsocket /home/pi/music/
+Restart=always
+RestartSec=3
+User=pi
+
+[Install]
+WantedBy=multi-user.target

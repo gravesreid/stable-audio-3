@@ -1,0 +1,41 @@
+[
+  {
+    "file": "001-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, soaring violin melody pushed to the limit, layered string section pushing underneath, steady relentless drive, no breakdowns, no vocals, 138 BPM",
+    "seed": 415849346,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "002-sci-fi-battle-score-cold-and-merciless-brass-sta.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, brass stabs cutting through, granular string textures, agitated, insistent hammering low pulse, no vocals, 132 BPM",
+    "seed": 1487179538,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "003-cinematic-peak-time-techno-detuned-pluck-sequenc.wav",
+    "prompt": "Cinematic peak-time techno, detuned pluck sequence, relentless, agitated granular textures in the background, hard rimshot groove, no vocals, 130 BPM",
+    "seed": 1299526164,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  }
+]

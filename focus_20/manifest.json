@@ -1,0 +1,3122 @@
+[
+  {
+    "file": "001-deep-rolling-drum-and-bass-at-full-drive-fierce.wav",
+    "prompt": "Deep rolling drum and bass at full drive, fierce solo violin over the break, grinding analog bass, relentless break, full drive, no vocals, 175 BPM",
+    "seed": 280357292,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "002-trailer-music-at-full-tilt-no-let-up-solo-violin.wav",
+    "prompt": "Trailer music at full tilt, no let-up, solo violin sawing a fierce line, distorted analog pads pushing underneath, insistent hammering low pulse, no vocals, 120 BPM",
+    "seed": 1541893550,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "003-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, violin melody doubled in screaming octaves, huge distorted supersaw chords, hard-hitting programmed drums, no drops, no vocals, 132 BPM",
+    "seed": 1777093424,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "004-cello-metal-instrumental-two-cellos-full-aggress.wav",
+    "prompt": "Cello metal instrumental, two cellos, full aggression, cello melody in the high register, ferocious, string section slamming behind, tight aggressive groove, no tempo changes, no vocals, 124 BPM",
+    "seed": 651698272,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "005-cinematic-peak-time-techno-detuned-pluck-sequenc.wav",
+    "prompt": "Cinematic peak-time techno, detuned pluck sequence, relentless, hard reverb-slammed chord stabs, hard rimshot groove, no vocals, 144 BPM",
+    "seed": 1083125001,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "006-high-energy-melodic-house-for-concentration-scre.wav",
+    "prompt": "High-energy melodic house for concentration, screaming acid line, grinding analog bass underneath, relentless rolling bassline, unchanging, no vocals, 126 BPM",
+    "seed": 365614082,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "007-relentless-driving-modular-synth-workout-aggress.wav",
+    "prompt": "Relentless driving modular synth workout, aggressive chord stab drenched in reverb, pounding subterranean sub bass, relentless loop, hammering forward, no vocals, 136 BPM",
+    "seed": 131618931,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "008-percussive-piano-and-cello-instrumental-driving.wav",
+    "prompt": "Percussive piano and cello instrumental, driving hard, fierce cello melody in the upper register, stacked cello harmonies pushing underneath, relentless cajon pulse, no vocals, 140 BPM",
+    "seed": 723477322,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "009-high-energy-dance-instrumental-built-around-a-sh.wav",
+    "prompt": "High-energy dance instrumental built around a shredding violin, double-stopped violin hook, aggressive, layered string section pushing underneath, rolling hand drums at full intensity, no vocals, 130 BPM",
+    "seed": 419172518,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "010-high-stakes-heist-score-precise-and-pounding-bra.wav",
+    "prompt": "High-stakes heist score, precise and pounding, brass stabs cutting through, granular string textures, agitated, pounding taiko floor toms, no vocals, 150 BPM",
+    "seed": 1245438636,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "011-peak-time-driving-techno-for-locked-in-focus-fil.wav",
+    "prompt": "Peak-time driving techno for locked-in focus, filter cranking open on a saw lead, pounding sub bass and little else, driving hats, hypnotic and tight, no vocals, 138 BPM",
+    "seed": 1917538130,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "012-pounding-piano-and-cello-arrangement-full-intens.wav",
+    "prompt": "Pounding piano and cello arrangement, full intensity, hammering piano arpeggios, tight close-miked room, aggressive, hard cello body percussion driving time, no vocals, 116 BPM",
+    "seed": 1324988963,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "013-baroque-flavored-cello-metal-instrumental-cellos.wav",
+    "prompt": "Baroque-flavored cello metal instrumental, cellos in unison octaves, full force, layered cello harmonies, dense, relentless eighth-note pulse, no vocals, 160 BPM",
+    "seed": 356505205,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "014-epic-violin-electronica-relentless-soaring-violi.wav",
+    "prompt": "Epic violin electronica, relentless, soaring violin melody pushed to the limit, gritty analog pads and hard plucks, steady relentless drive, no breakdowns, no vocals, 136 BPM",
+    "seed": 2077894865,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "015-widescreen-chase-sequence-score-hammering-string.wav",
+    "prompt": "Widescreen chase-sequence score, hammering string ostinato, gritty tape-saturated strings, militaristic snare marking time, no vocals, 136 BPM",
+    "seed": 160079920,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "016-driving-acid-techno-for-hyperfocus-single-note-p.wav",
+    "prompt": "Driving acid techno for hyperfocus, single-note pulse, filter slamming, clicky aggressive micro-percussion, steady pounding pulse with slamming filter movement, no vocals, 144 BPM",
+    "seed": 136887900,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "017-cello-ensemble-instrumental-driving-and-savage-h.wav",
+    "prompt": "Cello ensemble instrumental, driving and savage, heavily distorted cello riff, gritty high-gain amp tone on the low cello, hard-hitting rock drums, relentless, no vocals, 144 BPM",
+    "seed": 469985357,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "018-piano-and-cello-score-urgent-and-relentless-poun.wav",
+    "prompt": "Piano and cello score, urgent and relentless, pounding octave piano melody, hard pizzicato cellos hammering the pulse, tight relentless groove, no let-up, no vocals, 108 BPM",
+    "seed": 199290367,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "019-relentless-action-film-score-electronic-and-orch.wav",
+    "prompt": "Relentless action film score, electronic and orchestral, bowed metallic melody, tense, dense reverberant wall of sound, hard driving kick, relentless, no vocals, 134 BPM",
+    "seed": 1882500344,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "020-hard-driving-electronic-coding-music-aggressive.wav",
+    "prompt": "Hard driving electronic coding music, aggressive plucked synth motif, agitated granular textures in the background, relentless percussion, minimal changes, no vocals, 134 BPM",
+    "seed": 231374721,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "021-aggressive-electronic-violin-crossover-instrumen.wav",
+    "prompt": "Aggressive electronic violin crossover instrumental, machine-gun pizzicato violin ostinato, aggressive bell stabs, punchy kick and clap, full throttle, no vocals, 128 BPM",
+    "seed": 1156782294,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "022-cinematic-drum-and-bass-with-pounding-orchestral.wav",
+    "prompt": "Cinematic drum and bass with pounding orchestral elements, hard Rhodes stabs, gritty tape-saturated backdrop, tight rolling percussion, no drops, no vocals, 173 BPM",
+    "seed": 1651546410,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "023-hard-rolling-techno-relentless-hard-digital-sequ.wav",
+    "prompt": "Hard rolling techno, relentless, hard digital sequence, polyrhythmic and tight, dry and hard, in-your-face, relentless and unbroken, no vocals, 138 BPM",
+    "seed": 1467942361,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "024-celtic-tinged-electronic-instrumental-fierce-vio.wav",
+    "prompt": "Celtic-tinged electronic instrumental, fierce violin lead, keening violin countermelody cutting over a driving string section, orchestral strings and heavy synth bass together, pounding four-on-the-floor kick, no vocals, 144 BPM",
+    "seed": 1525813083,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "025-pounding-rolling-techno-for-deep-work-driving-st.wav",
+    "prompt": "Pounding rolling techno for deep work, driving string ostinato over the beat, wide aggressive evolving pads, stomping kick, full throttle, no vocals, 130 BPM",
+    "seed": 1265057100,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "026-cello-driven-instrumental-with-a-pounding-rock-r.wav",
+    "prompt": "Cello-driven instrumental with a pounding rock rhythm section, furious sawing cello ostinato, huge room reverb, punchy drums, sustained full intensity, no vocals, 150 BPM",
+    "seed": 1453519134,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "027-sci-fi-battle-score-cold-and-merciless-razor-edg.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, razor-edged synth lead, driving, menacing low drone driving the harmony, staccato strings stabbing the beat, no vocals, 124 BPM",
+    "seed": 564380111,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "028-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, violin trading fierce phrases with a distorted synth, huge distorted supersaw chords, driving syncopated beat, relentless, no vocals, 134 BPM",
+    "seed": 576811935,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "029-driving-hybrid-orchestral-electronic-score-full.wav",
+    "prompt": "Driving hybrid orchestral-electronic score, full intensity, urgent piano motif pounding in octaves, distorted analog pads pushing underneath, relentless sixteenth-note percussion, no vocals, 130 BPM",
+    "seed": 1627188332,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "030-dramatic-cello-duo-instrumental-hard-rock-energy.wav",
+    "prompt": "Dramatic cello duo instrumental, hard rock energy, two cellos trading savage lines, heavy synth bass reinforcing the low end, propulsive stomping half-time groove, no vocals, 112 BPM",
+    "seed": 1672177059,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "031-aggressive-piano-and-cello-duel-cinematic-urgent.wav",
+    "prompt": "Aggressive piano and cello duel, cinematic, urgent piano melody, no let-up, heavy synth pad under the acoustic instruments, stomping four-on-the-floor feel, no vocals, 130 BPM",
+    "seed": 1124010397,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "032-pumping-electro-aggressive-and-tight-distorted-o.wav",
+    "prompt": "Pumping electro, aggressive and tight, distorted organ stabs, hard tape delay driving everything, aggressive shuffled groove, no vocals, 145 BPM",
+    "seed": 306467773,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "033-trance-influenced-focus-banger-full-drive-pierci.wav",
+    "prompt": "Trance-influenced focus banger, full drive, piercing bell sequence, hard reverb-slammed chord stabs, pounding four-on-the-floor kick, no drops, no vocals, 142 BPM",
+    "seed": 117868153,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "034-driving-jump-up-tinged-drum-and-bass-tight-chopp.wav",
+    "prompt": "Driving jump-up-tinged drum and bass, tight, chopped string phrase, aggressive, wide aggressive reverberant space, crisp aggressive two-step drums, no vocals, 177 BPM",
+    "seed": 892394841,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "035-symphonic-metal-instrumental-led-by-cellos-soari.wav",
+    "prompt": "Symphonic metal instrumental led by cellos, soaring cello melody screaming over the riff, string section slamming behind, pounding kick and snare, driving, no vocals, 120 BPM",
+    "seed": 1638673447,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "036-pursuit-montage-score-hard-and-propulsive-aggres.wav",
+    "prompt": "Pursuit montage score, hard and propulsive, aggressive plucked sequence, machine-tight, granular string textures, agitated, insistent hammering low pulse, no vocals, 140 BPM",
+    "seed": 403221663,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "037-aggressive-liquid-drum-and-bass-piercing-bell-me.wav",
+    "prompt": "Aggressive liquid drum and bass, piercing bell melody, pounding sub bass underneath, propulsive pounding drums, no vocals, 172 BPM",
+    "seed": 1452951221,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "038-relentless-progressive-house-for-concentration-h.wav",
+    "prompt": "Relentless progressive house for concentration, hypnotic arpeggio cycling hard, grinding analog bass underneath, hard rimshot groove, no vocals, 132 BPM",
+    "seed": 1351204761,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "039-middle-eastern-inflected-electronic-banger-violi.wav",
+    "prompt": "Middle-Eastern-inflected electronic banger, violin lead, blistering sixteenth-note violin line, layered string section pushing underneath, hard-hitting programmed drums, no drops, no vocals, 150 BPM",
+    "seed": 1386276464,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "040-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, furious staccato violin riff, gritty analog pads and hard plucks, rolling hand drums at full intensity, no vocals, 148 BPM",
+    "seed": 2040411030,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "041-acid-fueled-focus-banger-screaming-303-acid-line.wav",
+    "prompt": "Acid-fueled focus banger, screaming 303 acid line, gritty distortion and tape saturation, pounding kick pulse, driving, no vocals, 132 BPM",
+    "seed": 805402553,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "042-cinematic-peak-time-techno-hard-supersaw-chord-s.wav",
+    "prompt": "Cinematic peak-time techno, hard supersaw chord stabs, pounding sub bass and little else, relentless rolling bassline, unchanging, no vocals, 140 BPM",
+    "seed": 1623717793,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "043-trailer-music-at-full-tilt-no-let-up-cello-line.wav",
+    "prompt": "Trailer music at full tilt, no let-up, cello line grinding in fast steps, gritty tape-saturated strings, pounding taiko floor toms, no vocals, 144 BPM",
+    "seed": 2029994675,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "044-rhythmic-piano-and-cello-crossover-propulsive-ce.wav",
+    "prompt": "Rhythmic piano and cello crossover, propulsive, cello and piano trading aggressive lines, grinding low cello drone holding the key, propulsive staccato bass line, aggressive, no vocals, 112 BPM",
+    "seed": 1488789689,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "045-aggressive-classical-crossover-for-shredding-cel.wav",
+    "prompt": "Aggressive classical crossover for shredding cellos, cello playing a menacing bass riff, layered cello harmonies, dense, tight aggressive groove, no tempo changes, no vocals, 140 BPM",
+    "seed": 2033085678,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "046-peak-time-acid-trance-instrumental-detuned-chord.wav",
+    "prompt": "Peak-time acid trance instrumental, detuned chords pushed hard, pounding subterranean sub bass, hard clicky percussion, tight, no vocals, 150 BPM",
+    "seed": 1016093188,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "047-dark-piano-and-cello-instrumental-hammering-rele.wav",
+    "prompt": "Dark piano and cello instrumental, hammering, relentless rolling left-hand piano ostinato, stacked cello harmonies pushing underneath, pounding driving eighth notes, no vocals, 144 BPM",
+    "seed": 737669805,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "048-high-energy-melodic-house-for-concentration-detu.wav",
+    "prompt": "High-energy melodic house for concentration, detuned pluck sequence, relentless, agitated granular textures in the background, driving hats, hypnotic and tight, no vocals, 136 BPM",
+    "seed": 1906845215,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "049-cello-metal-instrumental-two-cellos-full-aggress.wav",
+    "prompt": "Cello metal instrumental, two cellos, full aggression, chugging palm-muted cello chords, gritty high-gain amp tone on the low cello, relentless eighth-note pulse, no vocals, 128 BPM",
+    "seed": 1633717618,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "050-relentless-minimal-drum-and-bass-grinding-cello.wav",
+    "prompt": "Relentless minimal drum and bass, grinding cello line under the drums, dense cavernous pads, hard-driving amen break, no vocals, 182 BPM",
+    "seed": 341914549,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "051-high-energy-dance-instrumental-built-around-a-sh.wav",
+    "prompt": "High-energy dance instrumental built around a shredding violin, violin melody doubled in screaming octaves, aggressive bell stabs, steady relentless drive, no breakdowns, no vocals, 138 BPM",
+    "seed": 327473097,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "052-high-stakes-heist-score-precise-and-pounding-sol.wav",
+    "prompt": "High-stakes heist score, precise and pounding, solo violin sawing a fierce line, dense reverberant wall of sound, militaristic snare marking time, no vocals, 138 BPM",
+    "seed": 1977992407,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "053-widescreen-chase-sequence-score-brass-stabs-cutt.wav",
+    "prompt": "Widescreen chase-sequence score, brass stabs cutting through, menacing low drone driving the harmony, hard driving kick, relentless, no vocals, 132 BPM",
+    "seed": 779548594,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "054-epic-piano-and-cello-anthem-driving-cascading-pi.wav",
+    "prompt": "Epic piano and cello anthem, driving, cascading piano figure over a grinding cello pedal, tight close-miked room, aggressive, relentless cajon pulse, no vocals, 120 BPM",
+    "seed": 1213781907,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "055-epic-violin-electronica-relentless-double-stoppe.wav",
+    "prompt": "Epic violin electronica, relentless, double-stopped violin hook, aggressive, orchestral strings and heavy synth bass together, punchy kick and clap, full throttle, no vocals, 124 BPM",
+    "seed": 1981769174,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "056-baroque-flavored-cello-metal-instrumental-cello.wav",
+    "prompt": "Baroque-flavored cello metal instrumental, cello melody in the high register, ferocious, huge room reverb, hard-hitting rock drums, relentless, no vocals, 132 BPM",
+    "seed": 1017355896,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "057-peak-time-driving-techno-for-locked-in-focus-scr.wav",
+    "prompt": "Peak-time driving techno for locked-in focus, screaming acid line, wide aggressive evolving pads, relentless percussion, minimal changes, no vocals, 128 BPM",
+    "seed": 1321550359,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "058-aggressive-electronic-violin-crossover-instrumen.wav",
+    "prompt": "Aggressive electronic violin crossover instrumental, soaring violin melody pushed to the limit, huge distorted supersaw chords, pounding four-on-the-floor kick, no vocals, 140 BPM",
+    "seed": 1063629208,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "059-detroit-influenced-hard-electro-crisp-drum-machi.wav",
+    "prompt": "Detroit-influenced hard electro, crisp drum machine and a relentless riff, clicky aggressive micro-percussion, relentless loop, hammering forward, no vocals, 142 BPM",
+    "seed": 1371387792,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "060-hard-driving-electronic-coding-music-filter-cran.wav",
+    "prompt": "Hard driving electronic coding music, filter cranking open on a saw lead, hard reverb-slammed chord stabs, stomping kick, full throttle, no vocals, 150 BPM",
+    "seed": 1038676865,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "061-relentless-action-film-score-electronic-and-orch.wav",
+    "prompt": "Relentless action film score, electronic and orchestral, hammering string ostinato, distorted analog pads pushing underneath, staccato strings stabbing the beat, no vocals, 128 BPM",
+    "seed": 273515548,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "062-celtic-tinged-electronic-instrumental-fierce-vio.wav",
+    "prompt": "Celtic-tinged electronic instrumental, fierce violin lead, machine-gun pizzicato violin ostinato, layered string section pushing underneath, driving syncopated beat, relentless, no vocals, 132 BPM",
+    "seed": 628359134,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "063-sci-fi-battle-score-cold-and-merciless-bowed-met.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, bowed metallic melody, tense, granular string textures, agitated, relentless sixteenth-note percussion, no vocals, 120 BPM",
+    "seed": 1643904639,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "064-relentless-driving-modular-synth-workout-grindin.wav",
+    "prompt": "Relentless driving modular synth workout, grinding bassline carrying the tune, dry and hard, in-your-face, steady pounding pulse with slamming filter movement, no vocals, 140 BPM",
+    "seed": 205093219,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "065-cello-ensemble-instrumental-driving-and-savage-c.wav",
+    "prompt": "Cello ensemble instrumental, driving and savage, cellos in unison octaves, full force, heavy synth bass reinforcing the low end, punchy drums, sustained full intensity, no vocals, 116 BPM",
+    "seed": 1190071432,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "066-high-energy-drum-and-bass-relentless-driving-mel.wav",
+    "prompt": "High-energy drum and bass, relentless, driving melodic pads, grinding analog bass, rolling breakbeat, relentless, no vocals, 180 BPM",
+    "seed": 2034301698,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "067-pounding-rolling-techno-for-deep-work-aggressive.wav",
+    "prompt": "Pounding rolling techno for deep work, aggressive plucked synth motif, grinding analog bass underneath, pounding four-on-the-floor kick, no drops, no vocals, 144 BPM",
+    "seed": 2093062379,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "068-percussive-piano-and-cello-instrumental-driving.wav",
+    "prompt": "Percussive piano and cello instrumental, driving hard, cello double-stops driving the theme hard, hard pizzicato cellos hammering the pulse, hard cello body percussion driving time, no vocals, 132 BPM",
+    "seed": 350850684,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "069-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, keening violin countermelody cutting over a driving string section, gritty analog pads and hard plucks, hard-hitting programmed drums, no drops, no vocals, 130 BPM",
+    "seed": 196242202,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "070-driving-acid-techno-for-hyperfocus-aggressive-ch.wav",
+    "prompt": "Driving acid techno for hyperfocus, aggressive chord stab drenched in reverb, hard tape delay driving everything, relentless and unbroken, no vocals, 128 BPM",
+    "seed": 1581708955,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "071-cello-driven-instrumental-with-a-pounding-rock-r.wav",
+    "prompt": "Cello-driven instrumental with a pounding rock rhythm section, heavily distorted cello riff, string section slamming behind, propulsive stomping half-time groove, no vocals, 136 BPM",
+    "seed": 1567443720,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "072-driving-hybrid-orchestral-electronic-score-full.wav",
+    "prompt": "Driving hybrid orchestral-electronic score, full intensity, razor-edged synth lead, driving, gritty tape-saturated strings, insistent hammering low pulse, no vocals, 150 BPM",
+    "seed": 1185902457,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "073-trance-influenced-focus-banger-full-drive-drivin.wav",
+    "prompt": "Trance-influenced focus banger, full drive, driving string ostinato over the beat, pounding sub bass and little else, hard rimshot groove, no vocals, 126 BPM",
+    "seed": 1758040773,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "074-rolling-neurofunk-drum-and-bass-for-focus-hard-e.wav",
+    "prompt": "Rolling neurofunk drum and bass for focus, hard-edged jazzy chords, gritty tape-saturated backdrop, relentless break, full drive, no vocals, 168 BPM",
+    "seed": 639373047,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "075-middle-eastern-inflected-electronic-banger-violi.wav",
+    "prompt": "Middle-Eastern-inflected electronic banger, violin lead, violin trading fierce phrases with a distorted synth, aggressive bell stabs, rolling hand drums at full intensity, no vocals, 136 BPM",
+    "seed": 1910321978,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "076-relentless-progressive-house-for-concentration-p.wav",
+    "prompt": "Relentless progressive house for concentration, piercing bell sequence, agitated granular textures in the background, relentless rolling bassline, unchanging, no vocals, 138 BPM",
+    "seed": 1790711015,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "077-pursuit-montage-score-hard-and-propulsive-urgent.wav",
+    "prompt": "Pursuit montage score, hard and propulsive, urgent piano motif pounding in octaves, dense reverberant wall of sound, pounding taiko floor toms, no vocals, 136 BPM",
+    "seed": 1070857508,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "078-pounding-piano-and-cello-arrangement-full-intens.wav",
+    "prompt": "Pounding piano and cello arrangement, full intensity, fierce cello melody in the upper register, heavy synth pad under the acoustic instruments, tight relentless groove, no let-up, no vocals, 136 BPM",
+    "seed": 139577015,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "079-dramatic-cello-duo-instrumental-hard-rock-energy.wav",
+    "prompt": "Dramatic cello duo instrumental, hard rock energy, furious sawing cello ostinato, layered cello harmonies, dense, pounding kick and snare, driving, no vocals, 124 BPM",
+    "seed": 404913156,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "080-hard-rolling-techno-relentless-single-note-pulse.wav",
+    "prompt": "Hard rolling techno, relentless, single-note pulse, filter slamming, gritty distortion and tape saturation, aggressive shuffled groove, no vocals, 134 BPM",
+    "seed": 1283932841,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "081-trailer-music-at-full-tilt-no-let-up-aggressive.wav",
+    "prompt": "Trailer music at full tilt, no let-up, aggressive plucked sequence, machine-tight, menacing low drone driving the harmony, militaristic snare marking time, no vocals, 134 BPM",
+    "seed": 1845365039,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "082-cinematic-peak-time-techno-hypnotic-arpeggio-cyc.wav",
+    "prompt": "Cinematic peak-time techno, hypnotic arpeggio cycling hard, wide aggressive evolving pads, driving hats, hypnotic and tight, no vocals, 134 BPM",
+    "seed": 446747195,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "083-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, blistering sixteenth-note violin line, orchestral strings and heavy synth bass together, steady relentless drive, no breakdowns, no vocals, 128 BPM",
+    "seed": 1628178320,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "084-piano-and-cello-score-urgent-and-relentless-hamm.wav",
+    "prompt": "Piano and cello score, urgent and relentless, hammering piano arpeggios, grinding low cello drone holding the key, stomping four-on-the-floor feel, no vocals, 124 BPM",
+    "seed": 1157849224,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "085-high-energy-melodic-house-for-concentration-hard.wav",
+    "prompt": "High-energy melodic house for concentration, hard supersaw chord stabs, hard reverb-slammed chord stabs, relentless percussion, minimal changes, no vocals, 130 BPM",
+    "seed": 879189873,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "086-deep-rolling-drum-and-bass-at-full-drive-urgent.wav",
+    "prompt": "Deep rolling drum and bass at full drive, urgent piano melody, wide aggressive reverberant space, tight rolling percussion, no drops, no vocals, 174 BPM",
+    "seed": 1300584181,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "087-aggressive-piano-and-cello-duel-cinematic-poundi.wav",
+    "prompt": "Aggressive piano and cello duel, cinematic, pounding octave piano melody, stacked cello harmonies pushing underneath, propulsive staccato bass line, aggressive, no vocals, 128 BPM",
+    "seed": 1995581926,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "088-symphonic-metal-instrumental-led-by-cellos-two-c.wav",
+    "prompt": "Symphonic metal instrumental led by cellos, two cellos trading savage lines, gritty high-gain amp tone on the low cello, tight aggressive groove, no tempo changes, no vocals, 160 BPM",
+    "seed": 1435828190,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "089-high-energy-dance-instrumental-built-around-a-sh.wav",
+    "prompt": "High-energy dance instrumental built around a shredding violin, furious staccato violin riff, huge distorted supersaw chords, punchy kick and clap, full throttle, no vocals, 144 BPM",
+    "seed": 691511563,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "090-high-stakes-heist-score-precise-and-pounding-cel.wav",
+    "prompt": "High-stakes heist score, precise and pounding, cello line grinding in fast steps, distorted analog pads pushing underneath, hard driving kick, relentless, no vocals, 124 BPM",
+    "seed": 1937544399,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "091-pumping-electro-aggressive-and-tight-hard-digita.wav",
+    "prompt": "Pumping electro, aggressive and tight, hard digital sequence, polyrhythmic and tight, pounding subterranean sub bass, pounding kick pulse, driving, no vocals, 130 BPM",
+    "seed": 853018569,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "092-aggressive-classical-crossover-for-shredding-cel.wav",
+    "prompt": "Aggressive classical crossover for shredding cellos, soaring cello melody screaming over the riff, huge room reverb, relentless eighth-note pulse, no vocals, 144 BPM",
+    "seed": 1031050832,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "093-epic-violin-electronica-relentless-violin-melody.wav",
+    "prompt": "Epic violin electronica, relentless, violin melody doubled in screaming octaves, layered string section pushing underneath, pounding four-on-the-floor kick, no vocals, 134 BPM",
+    "seed": 2073669503,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "094-widescreen-chase-sequence-score-solo-violin-sawi.wav",
+    "prompt": "Widescreen chase-sequence score, solo violin sawing a fierce line, granular string textures, agitated, staccato strings stabbing the beat, no vocals, 130 BPM",
+    "seed": 1276952777,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "095-peak-time-driving-techno-for-locked-in-focus-det.wav",
+    "prompt": "Peak-time driving techno for locked-in focus, detuned pluck sequence, relentless, grinding analog bass underneath, stomping kick, full throttle, no vocals, 142 BPM",
+    "seed": 1299755668,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "096-acid-fueled-focus-banger-distorted-organ-stabs-c.wav",
+    "prompt": "Acid-fueled focus banger, distorted organ stabs, clicky aggressive micro-percussion, hard clicky percussion, tight, no vocals, 136 BPM",
+    "seed": 2072992253,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "097-rhythmic-piano-and-cello-crossover-propulsive-ur.wav",
+    "prompt": "Rhythmic piano and cello crossover, propulsive, urgent piano melody, no let-up, tight close-miked room, aggressive, pounding driving eighth notes, no vocals, 140 BPM",
+    "seed": 972467893,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "098-aggressive-electronic-violin-crossover-instrumen.wav",
+    "prompt": "Aggressive electronic violin crossover instrumental, double-stopped violin hook, aggressive, gritty analog pads and hard plucks, driving syncopated beat, relentless, no vocals, 150 BPM",
+    "seed": 558997016,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "099-relentless-action-film-score-electronic-and-orch.wav",
+    "prompt": "Relentless action film score, electronic and orchestral, brass stabs cutting through, gritty tape-saturated strings, relentless sixteenth-note percussion, no vocals, 140 BPM",
+    "seed": 889620907,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "100-cello-metal-instrumental-two-cellos-full-aggress.wav",
+    "prompt": "Cello metal instrumental, two cellos, full aggression, cello playing a menacing bass riff, heavy synth bass reinforcing the low end, hard-hitting rock drums, relentless, no vocals, 150 BPM",
+    "seed": 1613507326,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "101-cinematic-drum-and-bass-with-pounding-orchestral.wav",
+    "prompt": "Cinematic drum and bass with pounding orchestral elements, fierce solo violin over the break, pounding sub bass underneath, crisp aggressive two-step drums, no vocals, 178 BPM",
+    "seed": 433848241,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "102-hard-driving-electronic-coding-music-screaming-a.wav",
+    "prompt": "Hard driving electronic coding music, screaming acid line, pounding sub bass and little else, pounding four-on-the-floor kick, no drops, no vocals, 132 BPM",
+    "seed": 295552100,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "103-driving-jump-up-tinged-drum-and-bass-tight-hard.wav",
+    "prompt": "Driving jump-up-tinged drum and bass, tight, hard Rhodes stabs, dense cavernous pads, propulsive pounding drums, no vocals, 170 BPM",
+    "seed": 892490868,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "104-peak-time-acid-trance-instrumental-screaming-303.wav",
+    "prompt": "Peak-time acid trance instrumental, screaming 303 acid line, dry and hard, in-your-face, relentless loop, hammering forward, no vocals, 144 BPM",
+    "seed": 886349444,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "105-celtic-tinged-electronic-instrumental-fierce-vio.wav",
+    "prompt": "Celtic-tinged electronic instrumental, fierce violin lead, soaring violin melody pushed to the limit, aggressive bell stabs, hard-hitting programmed drums, no drops, no vocals, 148 BPM",
+    "seed": 542947013,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "106-sci-fi-battle-score-cold-and-merciless-hammering.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, hammering string ostinato, dense reverberant wall of sound, insistent hammering low pulse, no vocals, 144 BPM",
+    "seed": 719374018,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "107-driving-hybrid-orchestral-electronic-score-full.wav",
+    "prompt": "Driving hybrid orchestral-electronic score, full intensity, bowed metallic melody, tense, menacing low drone driving the harmony, pounding taiko floor toms, no vocals, 138 BPM",
+    "seed": 1245864584,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "108-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, machine-gun pizzicato violin ostinato, orchestral strings and heavy synth bass together, rolling hand drums at full intensity, no vocals, 138 BPM",
+    "seed": 926952443,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "109-pounding-rolling-techno-for-deep-work-filter-cra.wav",
+    "prompt": "Pounding rolling techno for deep work, filter cranking open on a saw lead, agitated granular textures in the background, hard rimshot groove, no vocals, 140 BPM",
+    "seed": 475985853,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "110-baroque-flavored-cello-metal-instrumental-chuggi.wav",
+    "prompt": "Baroque-flavored cello metal instrumental, chugging palm-muted cello chords, string section slamming behind, punchy drums, sustained full intensity, no vocals, 112 BPM",
+    "seed": 22585733,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "111-trance-influenced-focus-banger-full-drive-aggres.wav",
+    "prompt": "Trance-influenced focus banger, full drive, aggressive plucked synth motif, wide aggressive evolving pads, relentless rolling bassline, unchanging, no vocals, 136 BPM",
+    "seed": 1513553388,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "112-dark-piano-and-cello-instrumental-hammering-cell.wav",
+    "prompt": "Dark piano and cello instrumental, hammering, cello and piano trading aggressive lines, hard pizzicato cellos hammering the pulse, relentless cajon pulse, no vocals, 116 BPM",
+    "seed": 1131918739,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "113-cello-ensemble-instrumental-driving-and-savage-c.wav",
+    "prompt": "Cello ensemble instrumental, driving and savage, cello melody in the high register, ferocious, layered cello harmonies, dense, propulsive stomping half-time groove, no vocals, 120 BPM",
+    "seed": 104994773,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "114-pursuit-montage-score-hard-and-propulsive-razor.wav",
+    "prompt": "Pursuit montage score, hard and propulsive, razor-edged synth lead, driving, distorted analog pads pushing underneath, militaristic snare marking time, no vocals, 132 BPM",
+    "seed": 1773408866,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "115-middle-eastern-inflected-electronic-banger-violi.wav",
+    "prompt": "Middle-Eastern-inflected electronic banger, violin lead, keening violin countermelody cutting over a driving string section, huge distorted supersaw chords, steady relentless drive, no breakdowns, no vocals, 124 BPM",
+    "seed": 1951261647,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "116-relentless-progressive-house-for-concentration-d.wav",
+    "prompt": "Relentless progressive house for concentration, driving string ostinato over the beat, hard reverb-slammed chord stabs, driving hats, hypnotic and tight, no vocals, 128 BPM",
+    "seed": 1294318358,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "117-epic-piano-and-cello-anthem-driving-relentless-r.wav",
+    "prompt": "Epic piano and cello anthem, driving, relentless rolling left-hand piano ostinato, heavy synth pad under the acoustic instruments, hard cello body percussion driving time, no vocals, 108 BPM",
+    "seed": 1727241007,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "118-cello-driven-instrumental-with-a-pounding-rock-r.wav",
+    "prompt": "Cello-driven instrumental with a pounding rock rhythm section, cellos in unison octaves, full force, gritty high-gain amp tone on the low cello, pounding kick and snare, driving, no vocals, 140 BPM",
+    "seed": 283968499,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "119-detroit-influenced-hard-electro-detuned-chords-p.wav",
+    "prompt": "Detroit-influenced hard electro, detuned chords pushed hard, hard tape delay driving everything, steady pounding pulse with slamming filter movement, no vocals, 138 BPM",
+    "seed": 1385385520,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "120-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, violin trading fierce phrases with a distorted synth, layered string section pushing underneath, punchy kick and clap, full throttle, no vocals, 140 BPM",
+    "seed": 70591688,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "121-trailer-music-at-full-tilt-no-let-up-urgent-pian.wav",
+    "prompt": "Trailer music at full tilt, no let-up, urgent piano motif pounding in octaves, granular string textures, agitated, hard driving kick, relentless, no vocals, 128 BPM",
+    "seed": 1142404840,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "122-aggressive-liquid-drum-and-bass-chopped-string-p.wav",
+    "prompt": "Aggressive liquid drum and bass, chopped string phrase, aggressive, grinding analog bass, hard-driving amen break, no vocals, 176 BPM",
+    "seed": 401953483,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "123-high-energy-dance-instrumental-built-around-a-sh.wav",
+    "prompt": "High-energy dance instrumental built around a shredding violin, blistering sixteenth-note violin line, gritty analog pads and hard plucks, pounding four-on-the-floor kick, no vocals, 132 BPM",
+    "seed": 1853448857,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "124-cinematic-peak-time-techno-piercing-bell-sequenc.wav",
+    "prompt": "Cinematic peak-time techno, piercing bell sequence, grinding analog bass underneath, relentless percussion, minimal changes, no vocals, 150 BPM",
+    "seed": 643175007,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "125-relentless-driving-modular-synth-workout-crisp-d.wav",
+    "prompt": "Relentless driving modular synth workout, crisp drum machine and a relentless riff, gritty distortion and tape saturation, relentless and unbroken, no vocals, 145 BPM",
+    "seed": 1346068558,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "126-high-stakes-heist-score-precise-and-pounding-agg.wav",
+    "prompt": "High-stakes heist score, precise and pounding, aggressive plucked sequence, machine-tight, gritty tape-saturated strings, staccato strings stabbing the beat, no vocals, 120 BPM",
+    "seed": 1723656272,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "127-percussive-piano-and-cello-instrumental-driving.wav",
+    "prompt": "Percussive piano and cello instrumental, driving hard, cascading piano figure over a grinding cello pedal, grinding low cello drone holding the key, tight relentless groove, no let-up, no vocals, 130 BPM",
+    "seed": 582144914,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "128-dramatic-cello-duo-instrumental-hard-rock-energy.wav",
+    "prompt": "Dramatic cello duo instrumental, hard rock energy, heavily distorted cello riff, huge room reverb, tight aggressive groove, no tempo changes, no vocals, 128 BPM",
+    "seed": 1962964618,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "129-high-energy-melodic-house-for-concentration-hypn.wav",
+    "prompt": "High-energy melodic house for concentration, hypnotic arpeggio cycling hard, pounding sub bass and little else, stomping kick, full throttle, no vocals, 144 BPM",
+    "seed": 1841011498,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "130-widescreen-chase-sequence-score-cello-line-grind.wav",
+    "prompt": "Widescreen chase-sequence score, cello line grinding in fast steps, dense reverberant wall of sound, relentless sixteenth-note percussion, no vocals, 150 BPM",
+    "seed": 979393313,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "131-peak-time-driving-techno-for-locked-in-focus-har.wav",
+    "prompt": "Peak-time driving techno for locked-in focus, hard supersaw chord stabs, agitated granular textures in the background, pounding four-on-the-floor kick, no drops, no vocals, 126 BPM",
+    "seed": 2048003672,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "132-epic-violin-electronica-relentless-furious-stacc.wav",
+    "prompt": "Epic violin electronica, relentless, furious staccato violin riff, aggressive bell stabs, driving syncopated beat, relentless, no vocals, 130 BPM",
+    "seed": 762181739,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "133-pounding-piano-and-cello-arrangement-full-intens.wav",
+    "prompt": "Pounding piano and cello arrangement, full intensity, cello double-stops driving the theme hard, stacked cello harmonies pushing underneath, stomping four-on-the-floor feel, no vocals, 112 BPM",
+    "seed": 1259589240,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "134-relentless-action-film-score-electronic-and-orch.wav",
+    "prompt": "Relentless action film score, electronic and orchestral, solo violin sawing a fierce line, menacing low drone driving the harmony, insistent hammering low pulse, no vocals, 136 BPM",
+    "seed": 1110298209,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "135-relentless-minimal-drum-and-bass-piercing-bell-m.wav",
+    "prompt": "Relentless minimal drum and bass, piercing bell melody, gritty tape-saturated backdrop, rolling breakbeat, relentless, no vocals, 175 BPM",
+    "seed": 468672438,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "136-aggressive-electronic-violin-crossover-instrumen.wav",
+    "prompt": "Aggressive electronic violin crossover instrumental, violin melody doubled in screaming octaves, orchestral strings and heavy synth bass together, hard-hitting programmed drums, no drops, no vocals, 136 BPM",
+    "seed": 148737604,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "137-driving-acid-techno-for-hyperfocus-grinding-bass.wav",
+    "prompt": "Driving acid techno for hyperfocus, grinding bassline carrying the tune, pounding subterranean sub bass, aggressive shuffled groove, no vocals, 132 BPM",
+    "seed": 685504370,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "138-symphonic-metal-instrumental-led-by-cellos-furio.wav",
+    "prompt": "Symphonic metal instrumental led by cellos, furious sawing cello ostinato, heavy synth bass reinforcing the low end, relentless eighth-note pulse, no vocals, 132 BPM",
+    "seed": 1405041752,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "139-aggressive-classical-crossover-for-shredding-cel.wav",
+    "prompt": "Aggressive classical crossover for shredding cellos, two cellos trading savage lines, string section slamming behind, hard-hitting rock drums, relentless, no vocals, 116 BPM",
+    "seed": 1507081830,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "140-hard-driving-electronic-coding-music-detuned-plu.wav",
+    "prompt": "Hard driving electronic coding music, detuned pluck sequence, relentless, wide aggressive evolving pads, hard rimshot groove, no vocals, 138 BPM",
+    "seed": 955847542,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "141-hard-rolling-techno-relentless-aggressive-chord.wav",
+    "prompt": "Hard rolling techno, relentless, aggressive chord stab drenched in reverb, clicky aggressive micro-percussion, pounding kick pulse, driving, no vocals, 150 BPM",
+    "seed": 1934099165,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "142-sci-fi-battle-score-cold-and-merciless-brass-sta.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, brass stabs cutting through, distorted analog pads pushing underneath, pounding taiko floor toms, no vocals, 134 BPM",
+    "seed": 944193777,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "143-high-energy-drum-and-bass-relentless-grinding-ce.wav",
+    "prompt": "High-energy drum and bass, relentless, grinding cello line under the drums, wide aggressive reverberant space, relentless break, full drive, no vocals, 173 BPM",
+    "seed": 130997373,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "144-piano-and-cello-score-urgent-and-relentless-fier.wav",
+    "prompt": "Piano and cello score, urgent and relentless, fierce cello melody in the upper register, tight close-miked room, aggressive, propulsive staccato bass line, aggressive, no vocals, 144 BPM",
+    "seed": 1877239748,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "145-celtic-tinged-electronic-instrumental-fierce-vio.wav",
+    "prompt": "Celtic-tinged electronic instrumental, fierce violin lead, double-stopped violin hook, aggressive, huge distorted supersaw chords, rolling hand drums at full intensity, no vocals, 128 BPM",
+    "seed": 63959199,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "146-pounding-rolling-techno-for-deep-work-screaming.wav",
+    "prompt": "Pounding rolling techno for deep work, screaming acid line, hard reverb-slammed chord stabs, relentless rolling bassline, unchanging, no vocals, 134 BPM",
+    "seed": 572524322,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "147-driving-hybrid-orchestral-electronic-score-full.wav",
+    "prompt": "Driving hybrid orchestral-electronic score, full intensity, hammering string ostinato, granular string textures, agitated, militaristic snare marking time, no vocals, 124 BPM",
+    "seed": 1544731022,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "148-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, soaring violin melody pushed to the limit, layered string section pushing underneath, steady relentless drive, no breakdowns, no vocals, 144 BPM",
+    "seed": 1309541067,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "149-cello-metal-instrumental-two-cellos-full-aggress.wav",
+    "prompt": "Cello metal instrumental, two cellos, full aggression, soaring cello melody screaming over the riff, layered cello harmonies, dense, punchy drums, sustained full intensity, no vocals, 136 BPM",
+    "seed": 1253391350,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "150-pumping-electro-aggressive-and-tight-single-note.wav",
+    "prompt": "Pumping electro, aggressive and tight, single-note pulse, filter slamming, dry and hard, in-your-face, hard clicky percussion, tight, no vocals, 142 BPM",
+    "seed": 997018302,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "151-trance-influenced-focus-banger-full-drive-filter.wav",
+    "prompt": "Trance-influenced focus banger, full drive, filter cranking open on a saw lead, grinding analog bass underneath, driving hats, hypnotic and tight, no vocals, 130 BPM",
+    "seed": 1619663134,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "152-aggressive-piano-and-cello-duel-cinematic-hammer.wav",
+    "prompt": "Aggressive piano and cello duel, cinematic, hammering piano arpeggios, hard pizzicato cellos hammering the pulse, pounding driving eighth notes, no vocals, 120 BPM",
+    "seed": 1098035417,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "153-rolling-neurofunk-drum-and-bass-for-focus-drivin.wav",
+    "prompt": "Rolling neurofunk drum and bass for focus, driving melodic pads, pounding sub bass underneath, tight rolling percussion, no drops, no vocals, 177 BPM",
+    "seed": 1358234166,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "154-middle-eastern-inflected-electronic-banger-violi.wav",
+    "prompt": "Middle-Eastern-inflected electronic banger, violin lead, machine-gun pizzicato violin ostinato, gritty analog pads and hard plucks, punchy kick and clap, full throttle, no vocals, 134 BPM",
+    "seed": 1992812780,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "155-pursuit-montage-score-hard-and-propulsive-bowed.wav",
+    "prompt": "Pursuit montage score, hard and propulsive, bowed metallic melody, tense, gritty tape-saturated strings, hard driving kick, relentless, no vocals, 130 BPM",
+    "seed": 56697262,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "156-baroque-flavored-cello-metal-instrumental-cello.wav",
+    "prompt": "Baroque-flavored cello metal instrumental, cello playing a menacing bass riff, gritty high-gain amp tone on the low cello, propulsive stomping half-time groove, no vocals, 124 BPM",
+    "seed": 1766663752,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "157-relentless-progressive-house-for-concentration-a.wav",
+    "prompt": "Relentless progressive house for concentration, aggressive plucked synth motif, pounding sub bass and little else, relentless percussion, minimal changes, no vocals, 142 BPM",
+    "seed": 870987130,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "158-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, keening violin countermelody cutting over a driving string section, aggressive bell stabs, pounding four-on-the-floor kick, no vocals, 150 BPM",
+    "seed": 1576036953,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "159-cello-ensemble-instrumental-driving-and-savage-c.wav",
+    "prompt": "Cello ensemble instrumental, driving and savage, chugging palm-muted cello chords, huge room reverb, pounding kick and snare, driving, no vocals, 160 BPM",
+    "seed": 1121261447,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "160-cinematic-peak-time-techno-driving-string-ostina.wav",
+    "prompt": "Cinematic peak-time techno, driving string ostinato over the beat, agitated granular textures in the background, stomping kick, full throttle, no vocals, 132 BPM",
+    "seed": 1077767151,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "161-acid-fueled-focus-banger-hard-digital-sequence-p.wav",
+    "prompt": "Acid-fueled focus banger, hard digital sequence, polyrhythmic and tight, hard tape delay driving everything, relentless loop, hammering forward, no vocals, 140 BPM",
+    "seed": 1292480095,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "162-trailer-music-at-full-tilt-no-let-up-razor-edged.wav",
+    "prompt": "Trailer music at full tilt, no let-up, razor-edged synth lead, driving, dense reverberant wall of sound, staccato strings stabbing the beat, no vocals, 140 BPM",
+    "seed": 154467855,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "163-rhythmic-piano-and-cello-crossover-propulsive-po.wav",
+    "prompt": "Rhythmic piano and cello crossover, propulsive, pounding octave piano melody, heavy synth pad under the acoustic instruments, relentless cajon pulse, no vocals, 132 BPM",
+    "seed": 394200819,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "164-dark-piano-and-cello-instrumental-hammering-urge.wav",
+    "prompt": "Dark piano and cello instrumental, hammering, urgent piano melody, no let-up, grinding low cello drone holding the key, hard cello body percussion driving time, no vocals, 136 BPM",
+    "seed": 1433599326,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "165-high-stakes-heist-score-precise-and-pounding-urg.wav",
+    "prompt": "High-stakes heist score, precise and pounding, urgent piano motif pounding in octaves, menacing low drone driving the harmony, relentless sixteenth-note percussion, no vocals, 144 BPM",
+    "seed": 1428230987,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "166-deep-rolling-drum-and-bass-at-full-drive-hard-ed.wav",
+    "prompt": "Deep rolling drum and bass at full drive, hard-edged jazzy chords, dense cavernous pads, crisp aggressive two-step drums, no vocals, 172 BPM",
+    "seed": 1530325804,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "167-high-energy-dance-instrumental-built-around-a-sh.wav",
+    "prompt": "High-energy dance instrumental built around a shredding violin, violin trading fierce phrases with a distorted synth, orchestral strings and heavy synth bass together, driving syncopated beat, relentless, no vocals, 148 BPM",
+    "seed": 1718693523,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "168-widescreen-chase-sequence-score-aggressive-pluck.wav",
+    "prompt": "Widescreen chase-sequence score, aggressive plucked sequence, machine-tight, distorted analog pads pushing underneath, insistent hammering low pulse, no vocals, 138 BPM",
+    "seed": 1811918397,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "169-high-energy-melodic-house-for-concentration-pier.wav",
+    "prompt": "High-energy melodic house for concentration, piercing bell sequence, wide aggressive evolving pads, pounding four-on-the-floor kick, no drops, no vocals, 140 BPM",
+    "seed": 1252306451,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "170-cello-driven-instrumental-with-a-pounding-rock-r.wav",
+    "prompt": "Cello-driven instrumental with a pounding rock rhythm section, cello melody in the high register, ferocious, heavy synth bass reinforcing the low end, tight aggressive groove, no tempo changes, no vocals, 144 BPM",
+    "seed": 1612597150,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "171-epic-violin-electronica-relentless-blistering-si.wav",
+    "prompt": "Epic violin electronica, relentless, blistering sixteenth-note violin line, huge distorted supersaw chords, hard-hitting programmed drums, no drops, no vocals, 138 BPM",
+    "seed": 111799327,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "172-peak-time-acid-trance-instrumental-distorted-org.wav",
+    "prompt": "Peak-time acid trance instrumental, distorted organ stabs, gritty distortion and tape saturation, steady pounding pulse with slamming filter movement, no vocals, 128 BPM",
+    "seed": 582912421,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "173-cinematic-drum-and-bass-with-pounding-orchestral.wav",
+    "prompt": "Cinematic drum and bass with pounding orchestral elements, urgent piano melody, grinding analog bass, propulsive pounding drums, no vocals, 182 BPM",
+    "seed": 1239969855,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "174-epic-piano-and-cello-anthem-driving-cello-and-pi.wav",
+    "prompt": "Epic piano and cello anthem, driving, cello and piano trading aggressive lines, stacked cello harmonies pushing underneath, tight relentless groove, no let-up, no vocals, 124 BPM",
+    "seed": 1057120044,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "175-peak-time-driving-techno-for-locked-in-focus-hyp.wav",
+    "prompt": "Peak-time driving techno for locked-in focus, hypnotic arpeggio cycling hard, hard reverb-slammed chord stabs, hard rimshot groove, no vocals, 136 BPM",
+    "seed": 251957682,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "176-relentless-action-film-score-electronic-and-orch.wav",
+    "prompt": "Relentless action film score, electronic and orchestral, cello line grinding in fast steps, granular string textures, agitated, pounding taiko floor toms, no vocals, 132 BPM",
+    "seed": 1189879170,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "177-detroit-influenced-hard-electro-screaming-303-ac.wav",
+    "prompt": "Detroit-influenced hard electro, screaming 303 acid line, pounding subterranean sub bass, relentless and unbroken, no vocals, 134 BPM",
+    "seed": 1568698670,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "178-aggressive-electronic-violin-crossover-instrumen.wav",
+    "prompt": "Aggressive electronic violin crossover instrumental, furious staccato violin riff, layered string section pushing underneath, rolling hand drums at full intensity, no vocals, 124 BPM",
+    "seed": 923196933,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "179-dramatic-cello-duo-instrumental-hard-rock-energy.wav",
+    "prompt": "Dramatic cello duo instrumental, hard rock energy, cellos in unison octaves, full force, string section slamming behind, relentless eighth-note pulse, no vocals, 150 BPM",
+    "seed": 1857868217,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "180-hard-driving-electronic-coding-music-hard-supers.wav",
+    "prompt": "Hard driving electronic coding music, hard supersaw chord stabs, grinding analog bass underneath, relentless rolling bassline, unchanging, no vocals, 128 BPM",
+    "seed": 1208697857,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "181-symphonic-metal-instrumental-led-by-cellos-heavi.wav",
+    "prompt": "Symphonic metal instrumental led by cellos, heavily distorted cello riff, layered cello harmonies, dense, hard-hitting rock drums, relentless, no vocals, 112 BPM",
+    "seed": 230530023,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "182-relentless-driving-modular-synth-workout-detuned.wav",
+    "prompt": "Relentless driving modular synth workout, detuned chords pushed hard, clicky aggressive micro-percussion, aggressive shuffled groove, no vocals, 130 BPM",
+    "seed": 1633387616,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "183-celtic-tinged-electronic-instrumental-fierce-vio.wav",
+    "prompt": "Celtic-tinged electronic instrumental, fierce violin lead, violin melody doubled in screaming octaves, gritty analog pads and hard plucks, steady relentless drive, no breakdowns, no vocals, 140 BPM",
+    "seed": 785977940,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "184-percussive-piano-and-cello-instrumental-driving.wav",
+    "prompt": "Percussive piano and cello instrumental, driving hard, relentless rolling left-hand piano ostinato, tight close-miked room, aggressive, stomping four-on-the-floor feel, no vocals, 128 BPM",
+    "seed": 1351687815,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "185-sci-fi-battle-score-cold-and-merciless-solo-viol.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, solo violin sawing a fierce line, gritty tape-saturated strings, militaristic snare marking time, no vocals, 128 BPM",
+    "seed": 1791000972,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "186-driving-hybrid-orchestral-electronic-score-full.wav",
+    "prompt": "Driving hybrid orchestral-electronic score, full intensity, brass stabs cutting through, dense reverberant wall of sound, hard driving kick, relentless, no vocals, 120 BPM",
+    "seed": 1954766826,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "187-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, double-stopped violin hook, aggressive, aggressive bell stabs, punchy kick and clap, full throttle, no vocals, 132 BPM",
+    "seed": 1357201987,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "188-pounding-rolling-techno-for-deep-work-detuned-pl.wav",
+    "prompt": "Pounding rolling techno for deep work, detuned pluck sequence, relentless, pounding sub bass and little else, driving hats, hypnotic and tight, no vocals, 150 BPM",
+    "seed": 539450909,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "189-aggressive-classical-crossover-for-shredding-cel.wav",
+    "prompt": "Aggressive classical crossover for shredding cellos, furious sawing cello ostinato, gritty high-gain amp tone on the low cello, punchy drums, sustained full intensity, no vocals, 120 BPM",
+    "seed": 2119382645,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "190-trance-influenced-focus-banger-full-drive-scream.wav",
+    "prompt": "Trance-influenced focus banger, full drive, screaming acid line, agitated granular textures in the background, relentless percussion, minimal changes, no vocals, 144 BPM",
+    "seed": 1502996500,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "191-driving-acid-techno-for-hyperfocus-crisp-drum-ma.wav",
+    "prompt": "Driving acid techno for hyperfocus, crisp drum machine and a relentless riff, dry and hard, in-your-face, pounding kick pulse, driving, no vocals, 136 BPM",
+    "seed": 743928388,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "192-cello-metal-instrumental-two-cellos-full-aggress.wav",
+    "prompt": "Cello metal instrumental, two cellos, full aggression, two cellos trading savage lines, huge room reverb, propulsive stomping half-time groove, no vocals, 140 BPM",
+    "seed": 1914539026,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "193-pursuit-montage-score-hard-and-propulsive-hammer.wav",
+    "prompt": "Pursuit montage score, hard and propulsive, hammering string ostinato, menacing low drone driving the harmony, staccato strings stabbing the beat, no vocals, 150 BPM",
+    "seed": 602015096,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "194-pounding-piano-and-cello-arrangement-full-intens.wav",
+    "prompt": "Pounding piano and cello arrangement, full intensity, cascading piano figure over a grinding cello pedal, hard pizzicato cellos hammering the pulse, propulsive staccato bass line, aggressive, no vocals, 140 BPM",
+    "seed": 569515011,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "195-driving-jump-up-tinged-drum-and-bass-tight-fierc.wav",
+    "prompt": "Driving jump-up-tinged drum and bass, tight, fierce solo violin over the break, gritty tape-saturated backdrop, hard-driving amen break, no vocals, 180 BPM",
+    "seed": 629623648,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "196-middle-eastern-inflected-electronic-banger-violi.wav",
+    "prompt": "Middle-Eastern-inflected electronic banger, violin lead, soaring violin melody pushed to the limit, orchestral strings and heavy synth bass together, pounding four-on-the-floor kick, no vocals, 130 BPM",
+    "seed": 362853714,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "197-trailer-music-at-full-tilt-no-let-up-bowed-metal.wav",
+    "prompt": "Trailer music at full tilt, no let-up, bowed metallic melody, tense, distorted analog pads pushing underneath, relentless sixteenth-note percussion, no vocals, 136 BPM",
+    "seed": 392019548,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "198-aggressive-liquid-drum-and-bass-hard-rhodes-stab.wav",
+    "prompt": "Aggressive liquid drum and bass, hard Rhodes stabs, wide aggressive reverberant space, rolling breakbeat, relentless, no vocals, 168 BPM",
+    "seed": 1086045809,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "199-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, machine-gun pizzicato violin ostinato, huge distorted supersaw chords, driving syncopated beat, relentless, no vocals, 136 BPM",
+    "seed": 389216887,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "200-relentless-progressive-house-for-concentration-f.wav",
+    "prompt": "Relentless progressive house for concentration, filter cranking open on a saw lead, wide aggressive evolving pads, stomping kick, full throttle, no vocals, 126 BPM",
+    "seed": 1560349016,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "201-piano-and-cello-score-urgent-and-relentless-cell.wav",
+    "prompt": "Piano and cello score, urgent and relentless, cello double-stops driving the theme hard, heavy synth pad under the acoustic instruments, pounding driving eighth notes, no vocals, 116 BPM",
+    "seed": 1086640855,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "202-hard-rolling-techno-relentless-grinding-bassline.wav",
+    "prompt": "Hard rolling techno, relentless, grinding bassline carrying the tune, hard tape delay driving everything, hard clicky percussion, tight, no vocals, 144 BPM",
+    "seed": 392567362,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "203-high-stakes-heist-score-precise-and-pounding-raz.wav",
+    "prompt": "High-stakes heist score, precise and pounding, razor-edged synth lead, driving, granular string textures, agitated, insistent hammering low pulse, no vocals, 134 BPM",
+    "seed": 935994250,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "204-baroque-flavored-cello-metal-instrumental-soarin.wav",
+    "prompt": "Baroque-flavored cello metal instrumental, soaring cello melody screaming over the riff, heavy synth bass reinforcing the low end, pounding kick and snare, driving, no vocals, 128 BPM",
+    "seed": 263615160,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "205-cinematic-peak-time-techno-aggressive-plucked-sy.wav",
+    "prompt": "Cinematic peak-time techno, aggressive plucked synth motif, hard reverb-slammed chord stabs, pounding four-on-the-floor kick, no drops, no vocals, 138 BPM",
+    "seed": 2033196793,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "206-high-energy-dance-instrumental-built-around-a-sh.wav",
+    "prompt": "High-energy dance instrumental built around a shredding violin, keening violin countermelody cutting over a driving string section, layered string section pushing underneath, hard-hitting programmed drums, no drops, no vocals, 128 BPM",
+    "seed": 581006733,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "207-cello-ensemble-instrumental-driving-and-savage-c.wav",
+    "prompt": "Cello ensemble instrumental, driving and savage, cello playing a menacing bass riff, string section slamming behind, tight aggressive groove, no tempo changes, no vocals, 132 BPM",
+    "seed": 543182393,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "208-pumping-electro-aggressive-and-tight-aggressive.wav",
+    "prompt": "Pumping electro, aggressive and tight, aggressive chord stab drenched in reverb, gritty distortion and tape saturation, relentless loop, hammering forward, no vocals, 138 BPM",
+    "seed": 2102553932,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "209-high-energy-melodic-house-for-concentration-driv.wav",
+    "prompt": "High-energy melodic house for concentration, driving string ostinato over the beat, grinding analog bass underneath, hard rimshot groove, no vocals, 134 BPM",
+    "seed": 560447806,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "210-relentless-minimal-drum-and-bass-chopped-string.wav",
+    "prompt": "Relentless minimal drum and bass, chopped string phrase, aggressive, pounding sub bass underneath, relentless break, full drive, no vocals, 174 BPM",
+    "seed": 1833780908,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "211-widescreen-chase-sequence-score-urgent-piano-mot.wav",
+    "prompt": "Widescreen chase-sequence score, urgent piano motif pounding in octaves, gritty tape-saturated strings, pounding taiko floor toms, no vocals, 124 BPM",
+    "seed": 869748098,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "212-aggressive-piano-and-cello-duel-cinematic-fierce.wav",
+    "prompt": "Aggressive piano and cello duel, cinematic, fierce cello melody in the upper register, grinding low cello drone holding the key, relentless cajon pulse, no vocals, 108 BPM",
+    "seed": 2122479163,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "213-epic-violin-electronica-relentless-violin-tradin.wav",
+    "prompt": "Epic violin electronica, relentless, violin trading fierce phrases with a distorted synth, gritty analog pads and hard plucks, rolling hand drums at full intensity, no vocals, 144 BPM",
+    "seed": 501114640,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "214-aggressive-electronic-violin-crossover-instrumen.wav",
+    "prompt": "Aggressive electronic violin crossover instrumental, blistering sixteenth-note violin line, aggressive bell stabs, steady relentless drive, no breakdowns, no vocals, 134 BPM",
+    "seed": 71186164,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "215-cello-driven-instrumental-with-a-pounding-rock-r.wav",
+    "prompt": "Cello-driven instrumental with a pounding rock rhythm section, chugging palm-muted cello chords, layered cello harmonies, dense, relentless eighth-note pulse, no vocals, 116 BPM",
+    "seed": 1660900257,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "216-peak-time-driving-techno-for-locked-in-focus-pie.wav",
+    "prompt": "Peak-time driving techno for locked-in focus, piercing bell sequence, pounding sub bass and little else, relentless rolling bassline, unchanging, no vocals, 130 BPM",
+    "seed": 567388260,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "217-relentless-action-film-score-electronic-and-orch.wav",
+    "prompt": "Relentless action film score, electronic and orchestral, aggressive plucked sequence, machine-tight, dense reverberant wall of sound, militaristic snare marking time, no vocals, 130 BPM",
+    "seed": 411171295,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "218-hard-driving-electronic-coding-music-hypnotic-ar.wav",
+    "prompt": "Hard driving electronic coding music, hypnotic arpeggio cycling hard, agitated granular textures in the background, driving hats, hypnotic and tight, no vocals, 142 BPM",
+    "seed": 1565137153,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "219-high-energy-drum-and-bass-relentless-piercing-be.wav",
+    "prompt": "High-energy drum and bass, relentless, piercing bell melody, dense cavernous pads, tight rolling percussion, no drops, no vocals, 178 BPM",
+    "seed": 1397708766,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "220-celtic-tinged-electronic-instrumental-fierce-vio.wav",
+    "prompt": "Celtic-tinged electronic instrumental, fierce violin lead, furious staccato violin riff, orchestral strings and heavy synth bass together, punchy kick and clap, full throttle, no vocals, 150 BPM",
+    "seed": 974663664,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "221-acid-fueled-focus-banger-single-note-pulse-filte.wav",
+    "prompt": "Acid-fueled focus banger, single-note pulse, filter slamming, pounding subterranean sub bass, steady pounding pulse with slamming filter movement, no vocals, 145 BPM",
+    "seed": 2029124225,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "222-sci-fi-battle-score-cold-and-merciless-cello-lin.wav",
+    "prompt": "Sci-fi battle score, cold and merciless, cello line grinding in fast steps, menacing low drone driving the harmony, hard driving kick, relentless, no vocals, 140 BPM",
+    "seed": 1469248318,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "223-rhythmic-piano-and-cello-crossover-propulsive-ha.wav",
+    "prompt": "Rhythmic piano and cello crossover, propulsive, hammering piano arpeggios, stacked cello harmonies pushing underneath, hard cello body percussion driving time, no vocals, 130 BPM",
+    "seed": 1428801762,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "224-dark-piano-and-cello-instrumental-hammering-poun.wav",
+    "prompt": "Dark piano and cello instrumental, hammering, pounding octave piano melody, tight close-miked room, aggressive, tight relentless groove, no let-up, no vocals, 112 BPM",
+    "seed": 1944262855,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "225-peak-time-acid-trance-instrumental-hard-digital.wav",
+    "prompt": "Peak-time acid trance instrumental, hard digital sequence, polyrhythmic and tight, clicky aggressive micro-percussion, relentless and unbroken, no vocals, 132 BPM",
+    "seed": 288566183,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "226-dramatic-cello-duo-instrumental-hard-rock-energy.wav",
+    "prompt": "Dramatic cello duo instrumental, hard rock energy, cello melody in the high register, ferocious, gritty high-gain amp tone on the low cello, hard-hitting rock drums, relentless, no vocals, 136 BPM",
+    "seed": 635901808,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "227-driving-hybrid-orchestral-electronic-score-full.wav",
+    "prompt": "Driving hybrid orchestral-electronic score, full intensity, solo violin sawing a fierce line, distorted analog pads pushing underneath, staccato strings stabbing the beat, no vocals, 144 BPM",
+    "seed": 1357157098,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "228-pounding-rolling-techno-for-deep-work-hard-super.wav",
+    "prompt": "Pounding rolling techno for deep work, hard supersaw chord stabs, wide aggressive evolving pads, relentless percussion, minimal changes, no vocals, 132 BPM",
+    "seed": 1835969810,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "229-epic-cinematic-dance-instrumental-violin-lead-at.wav",
+    "prompt": "Epic cinematic dance instrumental, violin lead at full power, violin melody doubled in screaming octaves, huge distorted supersaw chords, pounding four-on-the-floor kick, no vocals, 148 BPM",
+    "seed": 1854623615,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "230-symphonic-metal-instrumental-led-by-cellos-cello.wav",
+    "prompt": "Symphonic metal instrumental led by cellos, cellos in unison octaves, full force, huge room reverb, punchy drums, sustained full intensity, no vocals, 124 BPM",
+    "seed": 919193864,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "231-middle-eastern-inflected-electronic-banger-violi.wav",
+    "prompt": "Middle-Eastern-inflected electronic banger, violin lead, double-stopped violin hook, aggressive, layered string section pushing underneath, driving syncopated beat, relentless, no vocals, 138 BPM",
+    "seed": 1874356013,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "232-pursuit-montage-score-hard-and-propulsive-brass.wav",
+    "prompt": "Pursuit montage score, hard and propulsive, brass stabs cutting through, granular string textures, agitated, relentless sixteenth-note percussion, no vocals, 138 BPM",
+    "seed": 2107209572,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "233-trance-influenced-focus-banger-full-drive-detune.wav",
+    "prompt": "Trance-influenced focus banger, full drive, detuned pluck sequence, relentless, hard reverb-slammed chord stabs, stomping kick, full throttle, no vocals, 140 BPM",
+    "seed": 742167489,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "234-trailer-music-at-full-tilt-no-let-up-hammering-s.wav",
+    "prompt": "Trailer music at full tilt, no let-up, hammering string ostinato, gritty tape-saturated strings, insistent hammering low pulse, no vocals, 132 BPM",
+    "seed": 1165543427,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "235-relentless-progressive-house-for-concentration-s.wav",
+    "prompt": "Relentless progressive house for concentration, screaming acid line, grinding analog bass underneath, pounding four-on-the-floor kick, no drops, no vocals, 136 BPM",
+    "seed": 144230824,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "236-epic-piano-and-cello-anthem-driving-urgent-piano.wav",
+    "prompt": "Epic piano and cello anthem, driving, urgent piano melody, no let-up, hard pizzicato cellos hammering the pulse, stomping four-on-the-floor feel, no vocals, 144 BPM",
+    "seed": 1334327043,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "237-detroit-influenced-hard-electro-distorted-organ.wav",
+    "prompt": "Detroit-influenced hard electro, distorted organ stabs, dry and hard, in-your-face, aggressive shuffled groove, no vocals, 150 BPM",
+    "seed": 1857854313,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "238-folk-electronic-crossover-fiddle-driving-hard-ov.wav",
+    "prompt": "Folk-electronic crossover, fiddle driving hard over programmed drums, soaring violin melody pushed to the limit, gritty analog pads and hard plucks, hard-hitting programmed drums, no drops, no vocals, 124 BPM",
+    "seed": 1165347957,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "239-rolling-neurofunk-drum-and-bass-for-focus-grindi.wav",
+    "prompt": "Rolling neurofunk drum and bass for focus, grinding cello line under the drums, grinding analog bass, crisp aggressive two-step drums, no vocals, 170 BPM",
+    "seed": 1628146842,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  },
+  {
+    "file": "240-aggressive-classical-crossover-for-shredding-cel.wav",
+    "prompt": "Aggressive classical crossover for shredding cellos, heavily distorted cello riff, heavy synth bass reinforcing the low end, propulsive stomping half-time groove, no vocals, 160 BPM",
+    "seed": 772748609,
+    "duration": 120,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "entrainment": {
+      "hz": 20.0,
+      "depth": 0.25,
+      "crossover": 150.0
+    }
+  }
+]
